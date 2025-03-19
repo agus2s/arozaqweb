@@ -1,4 +1,5 @@
 body {
+	background-color: #98FB98;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,14 +8,14 @@ body {
     align-items: center;
 }
 header {
-    background-color: #1976d2; 
+    background-color: #228B22; 
+    background-image: url('background.jpg'); /* Masukkan path gambar Anda */	
+	background-size: cover; /* Agar gambar menyesuaikan ukuran header */
     color: white;
-    padding-top: 6px;
     text-align: left;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    border-radius: 20px 20px 0 0;
+    max-width: 800px;
+    margin: 0;
 }
 header h1 {
     margin: 0;
@@ -37,26 +38,22 @@ nav a:hover {
     color: black;
 }
 main {
-    padding: 20px;
+	background-color: white;
+	margin: 0;
+    padding: 0 20px 0 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 760px;
 }
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 10px;
     width: 100%;
     bottom: 0;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 1em;
-    border-radius: 0 0 20px 20px;
 }
 ul, ol {
     line-height: 1.6;
@@ -65,4 +62,22 @@ section {
     flex: 1;
     min-width: 300px;
     margin: 10px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.header-section {
+    background-image: url('background.jpg'); /* Masukkan path gambar Anda */
+    background-size: cover; /* Agar gambar menyesuaikan ukuran header */
+    background-position: center; /* Menjaga gambar tetap di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    height: 300px; /* Tentukan tinggi header */
+    color: white; /* Sesuaikan warna teks agar terbaca dengan jelas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
