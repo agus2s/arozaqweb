@@ -81,3 +81,10 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+ol li {
+  color: #228B22;
+  font-weight: bold;
+  line-height: 2em;
+}
+
