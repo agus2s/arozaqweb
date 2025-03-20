@@ -1,5 +1,5 @@
 body {
-	background-color: #98FB98;
+	background-color: CornSilk;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ header {
 header h1 {
     margin: 0;
     padding: 1em;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);	
 }
 nav {
     display: flex;
