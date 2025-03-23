@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dulr6223/public_html/baniabdurrozaq/
+    - /bin/cp -R images $DEPLOYPATH
