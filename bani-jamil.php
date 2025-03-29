@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
-    <main>
+    <?php include 'header.php'; ?>
+    <main>    
         <section>
             <h2>Bapak Jamil beristri Ibu Maemunah</h2>
-            <p>Bapak Jamil anak dari <a href="index.html">K.H. Abdurrozaq</a>. Bapak Jamil beristrri Ibu Maemunah. Mereka memiliki 8 orang anak.</p>
-            <h3>Daftar Anak</h3>
+            <p>Bapak Jamil anak dari <a href="index.php">K.H. Abdurrozaq</a>. Bapak Jamil beristrri Ibu Maemunah. Beliau memiliki 8 orang anak:</p>
             <ol>
                 <li><a href="#">Ibu Sa'diyah</a></li>
                 <li><a href="bani-munawir.html">Bapak Munawir</a></li>
@@ -32,8 +24,6 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

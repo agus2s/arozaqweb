@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
+    <?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Ibu Nafsatun bersuami Bapak Ansor</h2>
-            <p>Ibu Nafsatun anak dari <a href="bani-sarbini.html">Ibu Sujiah dan Bapak Sarbini</a>. Ibu Nafsatun bersuami Bapak Ansor. Mereka memiliki 5 anak.</p>
-            <h3>Daftar Anak</h3>
+            <p>Ibu Nafsatun anak dari <a href="bani-sarbini.php">Ibu Sujiah dan Bapak Sarbini</a>. Ibu Nafsatun bersuami Bapak Ansor. Beliau memiliki 5 anak:</p>
             <ol>
                 <li><a href="#">Ibu Lembut/Ngafiyah</a></li>
                 <li><a href="#">Bapak Sodik</a></li>
@@ -29,8 +21,6 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

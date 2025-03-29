@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
+    <?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Bapak Abdul Qohar beristri Ibu Marchamah</h2>
-            <p>Bapak Abdul Qohar anak dari <a href="bani-sarbini.html">Ibu Sujiah dan Bapak Sarbini</a>. Bapak Abdul Qohar beristri Ibu Marchamah. Mereka memiliki 5 anak.</p>
-            <h3>Daftar Anak</h3>
+            <p>Bapak Abdul Qohar anak dari <a href="bani-sarbini.php">Ibu Sujiah dan Bapak Sarbini</a>. Bapak Abdul Qohar beristri Ibu Marchamah. Beliau memiliki 5 anak:</p>
             <ol>
                 <li><a href="#">Ibu Dingayatul Khoeriyah bersuami Bapak Wachyudin</a></li>
                 <li><a href="#">Ibu Natijatul Muna bersuami Bapak Mustakim</a></li>
@@ -29,8 +21,6 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

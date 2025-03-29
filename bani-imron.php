@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
+    <?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Bapak Imron</h2>
-            <p>Bapak Imron anak dari <a href="bani-abdullah-umar.html">Ibu Marliyah dan Bapak Abdullah Umar</a>. Bapak Imron memiliki 11 anak.</p>
-            <h3>Daftar Anak</h3>
+            <p>Bapak Imron anak dari <a href="bani-abdullah-umar.php">Ibu Marliyah dan Bapak Abdullah Umar</a>. Beliau memiliki 11 anak:</p>
             <ol>
                 <li><a href="#">Ibu Sangadah</a></li>
                 <li><a href="#">Ibu Baryatun</a></li>
@@ -29,14 +21,12 @@
                 <li><a href="#">Ibu Taslimah</a></li>
                 <li><a href="#">Bapak Muhaimin</a></li>
                 <li><a href="#">Bapak Muhtamil</a></li>
-                <li><a href="bani-munadir.html">Bapak Munadir</a></li>
+                <li><a href="bani-munadir.php">Bapak Munadir</a></li>
 				<li><a href="#">Bapak Muhtalim</a></li>
 				<li><a href="#">Ibu Yatimah</a></li>
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

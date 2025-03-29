@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
+    <?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Bapak Abdullah Rosyad</h2>
-            <p>Bapak Abdullah Rosyad anak dari <a href="bani-haji-amin.html">Bapak H. Amin</a>.</p>
-            <h3>Daftar Anak</h3>
+            <p>Bapak Abdullah Rosyad anak dari <a href="bani-haji-amin.php">Bapak H. Amin</a>. Beliau memiliki 6 anak:</p>
             <ol>
                 <li><a href="#">Ibu Kasriyah</a></li>
 				<li><a href="#">Ibu Cublek Tasringah</a></li>
@@ -30,8 +22,6 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

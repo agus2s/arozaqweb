@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
+    <?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Ibu Saridem bersuami Bapak Mustakim</h2>
-            <p>Ibu Saridem anak dari <a href="bani-haji-amin.html">Bapak H. Amin</a>. Ibu Saridem bersuami Bapak Mustakim.</p>
-            <h3>Daftar Anak</h3>
+            <p>Ibu Saridem anak dari <a href="bani-haji-amin.php">Bapak H. Amin</a>. Ibu Saridem bersuami Bapak Mustakim. Beliau memiliki 5 orang anak:</p>
             <ol>
                 <li><a href="#">Ibu Mustanginah</a></li>
 				<li><a href="#">Ibu Tunjiyah</a></li>
@@ -29,8 +21,6 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
