@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
+    <?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Ibu Satibah bersuami Bapak Ahmad Abdullah Sumeri</h2>
-            <p>Ibu Satibah anak dari <a href="index.html">K.H. Abdurrozaq</a>. Ibu Satibah bersuami Bapak Ahmad Abdullah Sumeri. Mereka memiliki 3 orang anak.</p>
-            <h3>Daftar Anak</h3>
+            <p>Ibu Satibah anak dari <a href="index.php">K.H. Abdurrozaq</a>. Ibu Satibah bersuami Bapak Ahmad Abdullah Sumeri. Beliau memiliki 3 orang anak:</p>
             <ol>
                 <li><a href="bani-ruslan.html">Ibu Hasanah bersuami Bapak Ruslan</a></li>
                 <li><a href="bani-mahali.htmnl">Bapak Mahali</a></li>
@@ -27,8 +19,6 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

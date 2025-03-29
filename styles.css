@@ -23,6 +23,10 @@ header h1 {
     padding: 1em;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);	
 }
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
 nav {
     display: flex;
     justify-content: left;
@@ -62,9 +66,12 @@ ul, ol {
     line-height: 1.6;
 }
 section {
+    width: 100%;
+    /*
     flex: 1;
     min-width: 300px;
     margin: 10px;
+    */
 }
 a:link{
     text-decoration: none;

@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bani K.H. Abdurrozaq</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
-            <a href="#anggota-keluarga">Anggota Keluarga</a>
-        </nav>
-    </header>
+    <?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Ibu Hamidah bersuami Bapak Abu Nangim</h2>
-            <p>Ibu Hamidah anak dari <a href="bani-abdullah-umar.html">Ibu Marliyah dan Bapak Abdullah Umar</a>. Ibu Hamidah bersuami Bapak Abu Nangim. Mereka memiliki 9 anak.</p>
-            <h3>Daftar Anak</h3>
+            <p>Ibu Hamidah anak dari <a href="bani-abdullah-umar.php">Ibu Marliyah dan Bapak Abdullah Umar</a>. Ibu Hamidah bersuami Bapak Abu Nangim. Beliau memiliki 9 anak:</p>
             <ol>
                 <li><a href="#">Bapak Mujahid</a></li>
                 <li><a href="#">Ibu Mutingah</a></li>
@@ -33,8 +25,6 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Bani Abdurrozaq</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
