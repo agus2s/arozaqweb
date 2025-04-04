@@ -10,8 +10,8 @@
     <?php include 'header.php'; ?>
     <main>
         <section>
-            <h2>Ibu Sujiah bersuami Bapak Sarbini</h2>
-            <p>Ibu Sujiah anak dari <a href="index.php">K.H. Abdurrozaq</a>. Ibu Sujiah bersuami Bapak Sarbini. Beliau memiliki 5 orang anak:</p>
+            <h2>Ibu Sujiah/Mariyah bersuami Bapak Sarbini</h2>
+            <p>Ibu Sujiah/Mariyah anak dari <a href="index.php">K.H. Abdurrozaq</a>. Ibu Sujiah bersuami Bapak Sarbini. Beliau memiliki 5 orang anak:</p>
             <ol>
                 <li><a href="bani-dul-ghoni.php">Ibu Ngariyah bersuami Bapak Dul Ghoni</a></li>
                 <li><a href="bani-ansor.php">Ibu Nafsatun bersuami Bapak Ansor</a></li>
@@ -20,6 +20,14 @@
                 <li><a href="bani-abdul-qohar.php">Bapak Abdul Qohar beristri Ibu Machamah</a></li>
                 <li><a href="#">Ibu Mukronah</a></li>
             </ol>
+        </section>
+        <section>
+            <h2>Garis Keturunan</h2>
+            <div class="tree">
+                <div class="node">Bapak K.H. Abdurrozaq</div>
+                <div class="line"></div>
+                <div class="node">Ibu Sujiah/Mariyah</div>
+            </div>
         </section>
     </main>
     <?php include 'footer.php'; ?>

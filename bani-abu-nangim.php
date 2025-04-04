@@ -24,6 +24,16 @@
                 <li><a href="#">Ibu Khoiriyah</a></li>
             </ol>
         </section>
+        <section>
+            <h2>Garis Keturunan</h2>
+            <div class="tree">
+                <div class="node">Bapak K.H. Abdurrozaq</div>
+                <div class="line"></div>
+                <div class="node">Ibu Marliyah</div>
+                <div class="line"></div>
+                <div class="node">Ibu Hamidah</div>
+            </div>
+        </section>
     </main>
     <?php include 'footer.php'; ?>
 </body>

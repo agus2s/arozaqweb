@@ -17,11 +17,19 @@
                 <li><a href="bani-imron.php">Bapak Imron</a></li>
                 <li><a href="bani-bahrudin.php">Bapak Bahrudin</a></li>
                 <li><a href="bani-abu-nangim.php">Ibu Hamidah bersuami Bapak Abu Nangim</a></li>
-                <li><a href="#">Ibu Romlah</a></li>
+                <li><a href="bani-romlah.php">Ibu Romlah</a></li>
                 <li><a href="#">Ibu Jaenah</a></li>
                 <li><a href="bani-hamdani">Bapak Hamdani</a></li>
                 <li><a href="bani-hayan.php">Bapak Hayan beristri Ibu Tasmiyah</a></li>                
             </ol>
+        </section>
+        <section>
+            <h2>Garis Keturunan</h2>
+            <div class="tree">
+                <div class="node">Bapak K.H. Abdurrozaq</div>
+                <div class="line"></div>
+                <div class="node">Ibu Marliyah</div>
+            </div>
         </section>
     </main>
     <?php include 'footer.php'; ?>

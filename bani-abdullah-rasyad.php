@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bani K.H. Abdurrozaq</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
     <main>
-        <section>
-            <h2>Bapak Abdullah Rosyad</h2>
+        <section>    
+            <h1>Bapak Abdullah Rosyad</h1>
             <p>Bapak Abdullah Rosyad anak dari <a href="bani-haji-amin.php">Bapak H. Amin</a>. Beliau memiliki 6 anak:</p>
             <ol>
                 <li><a href="#">Ibu Kasriyah</a></li>
@@ -21,7 +12,15 @@
 				<li><a href="#">Bapak Nasrudin</a></li>
             </ol>
         </section>
+        <section>
+            <h2>Garis Keturunan</h2>
+            <div class="tree">
+                <div class="node">Bapak K.H. Abdurrozaq</div>
+                <div class="line"></div>
+                <div class="node">Bapak H. Amin</div>
+                <div class="line"></div>
+                <div class="node">Bapak Abdullah Rosyad</div>
+            </div>
+        </section>
     </main>
-    <?php include 'footer.php'; ?>
-</body>
-</html>
+<?php include 'footer.php'; ?>

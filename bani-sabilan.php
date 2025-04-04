@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="id">    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bani K.H. Abdurrozaq</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
 <?php include 'header.php'; ?>
 <main>
     <section>
@@ -15,13 +6,21 @@
         <ol>
             <li><a href="#">Bapak Mujayir/Dahlan</a></li>
             <li><a href="#">Bapak Mukhlas</a></li>
+            <li><a href="#">Bapak Muhajir</a></li>
             <li><a href="#">Bapak Kuat/Muhyidin</a></li>
             <li><a href="#">Bapak Mungadin</a></li>
-            <li><a href="#">Ibu Wasilah</a></li>
-            <li><a href="#">Bapak Mukti</a></li>
+            <li><a href="#">Bapak Tulus</a></li>
         </ol>
+    </section>
+    <section>
+        <h2>Garis Keturunan</h2>
+        <div class="tree">
+            <div class="node">Bapak K.H. Abdurrozaq</div>
+            <div class="line"></div>
+            <div class="node">Ibu Marliyah</div>
+            <div class="line"></div>
+            <div class="node">Ibu Aisyah</div>
+        </div>
     </section>
 </main>
 <?php include 'footer.php'; ?>  
-</body>
-</html>
