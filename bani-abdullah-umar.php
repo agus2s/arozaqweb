@@ -18,8 +18,8 @@
                 <li><a href="bani-bahrudin.php">Bapak Bahrudin</a></li>
                 <li><a href="bani-abu-nangim.php">Ibu Hamidah bersuami Bapak Abu Nangim</a></li>
                 <li><a href="bani-romlah.php">Ibu Romlah</a></li>
-                <li><a href="#">Ibu Jaenah</a></li>
-                <li><a href="bani-hamdani">Bapak Hamdani</a></li>
+                <li><a href="bani-jaenah.php">Ibu Jaenah</a></li>
+                <li><a href="bani-hamdani.php">Bapak Hamdani</a></li>
                 <li><a href="bani-hayan.php">Bapak Hayan beristri Ibu Tasmiyah</a></li>                
             </ol>
         </section>

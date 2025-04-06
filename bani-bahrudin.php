@@ -8,19 +8,19 @@
 </head>
 <body>
 <?php include 'header.php'; ?>  
-<main>
-    <section>
-        <h2>Bapak Bahrudin</h2>
-        <p>Bapak Bahrudin adalah anak dari <a href="bani-abdullah-umar.php">Ibu Marliyah dan Bapak Abdullah Umar</a>. Beliau memiliki 5 orang anak:</p>
-        <ol>
-            <li><a href="#">Ibu Mudriyah</a></li>
-            <li><a href="#">Bapak Rubangi</a></li>
-            <li><a href="#">Bapak Mustolih/Gombloh</a></li>
-            <li><a href="#">Bapak Muslimin</a></li>
-            <li><a href="#">Bapak/Ibu Mus</a></li>
-        </ol>
-    </section>
-    <section>
+    <main>
+        <section>
+            <h2>Bapak Bahrudin</h2>
+            <p>Bapak Bahrudin adalah anak dari <a href="bani-abdullah-umar.php">Ibu Marliyah dan Bapak Abdullah Umar</a>. Beliau memiliki 5 orang anak:</p>
+            <ol>
+                <li><a href="#">Ibu Mudriyah</a></li>
+                <li><a href="#">Bapak Rubangi</a></li>
+                <li><a href="#">Bapak Mustolih/Gombloh</a></li>
+                <li><a href="#">Bapak Muslimin</a></li>
+                <li><a href="#">Bapak/Ibu Mus</a></li>
+            </ol>
+        </section>
+        <section>
             <h2>Garis Keturunan</h2>
             <div class="tree">
                 <div class="node">Bapak K.H. Abdurrozaq</div>
@@ -30,7 +30,7 @@
                 <div class="node">Bapak Bahrudin</div>
             </div>
         </section>
-</main>
+    </main>
 <?php include 'footer.php'; ?>
 </body>
 </html>

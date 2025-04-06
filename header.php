@@ -13,6 +13,6 @@
     <nav>
         <a href="index.php" class="navbar-btn">Beranda</a>
         <a href="#silsilah" class="navbar-btn">Silsilah</a>
-        <a href="#anggota-keluarga" class="navbar-btn">Anggota Keluarga</a>
+        <a href="#whatsapp" class="navbar-btn">WhatsApp</a>
     </nav>
 </header>
