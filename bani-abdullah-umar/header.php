@@ -13,6 +13,6 @@
     <nav>
         <a href="../index.php" class="navbar-btn">Beranda</a>
         <a href="#silsilah" class="navbar-btn">Silsilah</a>
-        <a href="#whatsapp" class="navbar-btn">WhatsApp</a>
+        <a href="https://wa.me/6285216802341" target="_blank" class="navbar-btn">WhatsApp</a>
     </nav>
 </header>

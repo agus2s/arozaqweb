@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
     <main>
         <section>    
-            <h1>Bapak Abdullah Rosyad</h1>
-            <p>Bapak Abdullah Rosyad anak dari Bapak H. Amin. Beliau memiliki 6 anak:</p>
+            <h1>Bapak Abdullah Rasyad</h1>
+            <p>Bapak Abdullah Rasyad anak dari Bapak H. Amin. Beliau memiliki 6 anak:</p>
             <ol>
                 <li><a href="#">Ibu Kasriyah</a></li>
 				<li><a href="#">Ibu Cublek Tasringah</a></li>

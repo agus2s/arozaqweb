@@ -7,7 +7,7 @@
 				<li><a href="#">Ibu Rohimah</a></li>
 				<li><a href="#">Bapak Ngatoil</a></li>
 				<li><a href="#">Bapak Mungalim</a></li>
-                <li><a href="#">Ibu Ngasimah/Tarwiyah</a></li>
+                <li><a href="#">Ibu Tarwiyah/Ngasimah</a></li>
                 <li><a href="#">Ibu Inganah</a></li>
                 <li><a href="#">Bapak Mutowali</a></li>
                 <li><a href="#">Ibu Khotimah</a></li>

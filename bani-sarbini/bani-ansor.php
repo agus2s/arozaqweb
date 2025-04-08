@@ -15,8 +15,8 @@
             <ol>
                 <li><a href="#">Ibu Lembut/Ngafiyah</a></li>
                 <li><a href="#">Bapak Sodik</a></li>
-                <li><a href="#">Bapak Basuni</a></li>
-                <li><a href="#">Bapak Mauludin</a></li>
+                <li><a href="#">Bapak Basyuni</a></li>
+                <li><a href="#">Bapak Ahmad Mauludin</a></li>
                 <li><a href="#">Ibu Rohmah</a></li>
             </ol>
         </section>

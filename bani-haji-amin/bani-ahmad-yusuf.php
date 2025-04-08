@@ -15,13 +15,13 @@
             <ol>
                 <li><a href="#">Bapak/Ibu Lapi</a></li>
                 <li><a href="#">Ibu Sariyah</a></li>
-				<li><a href="#">Bapak Sarman</a></li>
-				<li><a href="#">Ibu Sarmiyah</a></li>
-				<li><a href="#">Ibu Sarilah</a></li>
+				<li>Bapak Sarman</li>
+				<li>Ibu Sarmiyah</li>
+				<li>Ibu Sarilah</li>
 				<li><a href="#">Bapak Salimun</a></li>
-				<li><a href="#">Bapak Samingun</a></li>
+				<li>Bapak Samingun</li>
 				<li><a href="#">Bapak Surat</a></li>
-				<li><a href="#">Ibu Ngantun</a></li>
+				<li>Ibu Ngantun</li>
 				<li><a href="#">Ibu Ngaenah</a></li>
             </ol>
         </section>
