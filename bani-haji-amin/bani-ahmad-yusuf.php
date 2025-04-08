@@ -13,7 +13,7 @@
             <h2>Bapak Ahmad Yusuf</h2>
             <p>Bapak Ahmad Yusuf anak dari Bapak H. Amin. Beliau memiliki 10 anak:</p>
             <ol>
-                <li><a href="#">Bapak/Ibu Lapi</a></li>
+                <li><a href="bani-lapi.php">Bapak/Ibu Lapi</a></li>
                 <li><a href="#">Ibu Sariyah</a></li>
 				<li>Bapak Sarman</li>
 				<li>Ibu Sarmiyah</li>

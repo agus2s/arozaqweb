@@ -4,8 +4,8 @@
             <h2>Bapak Ahmad Sidiq</h2>
             <p>Bapak Ahmad Sidiq anak dari Bapak H. Amin. Beliau memiliki 2 anak:</p>
             <ol>
-                <li><a href="#">Ibu Kasiyah</a></li>
-                <li><a href="#">Bapak Kuat beristri Ibu Fatimah</a></li>
+                <li><a href="bani-kasiyah.php">Ibu Kasiyah</a></li>
+                <li><a href="bani-kuat.php">Bapak Kuat beristri Ibu Fatimah</a></li>
             </ol>
         </section>
         <section>
