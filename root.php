@@ -4,7 +4,7 @@
 	<ol>
 		<li><a href="bani-haji-amin/index.php">Bapak H. Amin beristri Ibu Satariyah</a></li>
 		<li><a href="bani-abdullah-umar/index.php">Ibu Mariyah bersuami Bapak Abdullah Umar</a></li>
-		<li><a href="bani-sarbini/index.php">Ibu Sujiah/Marjiyah bersuami Bapak Sarbini</a></li>
+		<li><a href="bani-sarbini/index.php">Ibu Sujiah/Marjiah bersuami Bapak Sarbini</a></li>
 		<li><a href="bani-jamil/index.php">Bapak Muhammad Jamil beristri Ibu Maemunah</a></li>
 		<li><a href="bani-ilyas/index.php">Bapak Hasan Ilyas beristri Ibu Rochyati</a></li>
 		<li><a href="bani-abdullah-sumeri/index.php">Ibu Satibah bersuami Bapak Ahmad Abdullah Sumeri</a></li>

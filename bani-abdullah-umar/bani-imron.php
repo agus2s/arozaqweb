@@ -1,29 +1,23 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bani K.H. Abdurrozaq</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <?php include 'header.php'; ?>
+<?php 
+const NAMA = 'Bapak Imron';
+include 'header.php'; 
+?>
     <main>
         <section>
-            <h2>Bapak Imron</h2>
-            <p>Bapak Imron anak dari Ibu Mariyah dan Bapak Abdullah Umar. Beliau memiliki 11 anak:</p>
+            <h2><?=NAMA?></h2>
+            <p><?=NAMA?> anak dari Ibu Mariyah dan Bapak Abdullah Umar. <?=NAMA?> memiliki 11 anak:</p>
             <ol>
-                <li><a href="#">Ibu Sangadah</a></li>
-                <li><a href="#">Ibu Baryatun</a></li>
-                <li><a href="#">Bapak Mudzakir</a></li>
-                <li><a href="#">Bapak/Ibu Mus</a></li>
-                <li><a href="#">Ibu Sapiyah</a></li>
-                <li><a href="#">Ibu Taslimah</a></li>
-                <li><a href="#">Bapak Muhaimin</a></li>
-                <li><a href="#">Bapak Muhtamil</a></li>
-                <li><a href="bani-munadir.php">Bapak Munadir</a></li>
-				<li><a href="#">Bapak Muhtalim</a></li>
-				<li><a href="#">Ibu Yatimah</a></li>
+                <li><a href="bani-sangadah.php">Ibu Sangadah</a></li>
+                <li>Ibu Baryatun</li>
+                <li><a href="bani-mudzakir.php">Bapak Mudzakir</a></li>
+                <li><a href="bani-mus.php">Bapak/Ibu Mus</a></li>
+                <li><a href="bani-sapiyah.php">Ibu Sapiyah</a></li>
+                <li><a href="bani-taslimah.php">Ibu Taslimah</a></li>
+                <li>Bapak Muhaimin</li>
+                <li><a href="bani-muhtamil.php">Bapak Muhtamil</a></li>
+                <li><a href="bani-munadir.php">Bapak H. Munadir</a></li>
+				<li><a href="bani-muhtalim.php">Bapak Muhtalim</a></li>
+				<li><a href="bani-yatimah.php">Ibu Yatimah</a></li>
             </ol>
         </section>
         <section>
@@ -33,7 +27,7 @@
                 <div class="line"></div>
                 <div class="node"><a href="index.php">Ibu Mariyah</a></div>
                 <div class="line"></div>
-                <div class="node">Bapak Imron</div>
+                <div class="node"><?=NAMA?></div>
             </div>
         </section>
     </main>

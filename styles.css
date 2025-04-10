@@ -109,11 +109,47 @@ a:hover {
     background-color: #6c63ff;
 }
 
-@media (max-width: 768px) {
-      /* Gaya khusus untuk layar kecil */
-    section {
-        width: 100%;
-        padding: 20px;
+@media screen and (max-width: 1280px) {
+    body {
+        background-color: #f0f0f0; /* Pilihan warna latar belakang yang lebih lembut untuk resolusi ini */
     }
-  }
+
+    header {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    nav a {
+        padding: 10px 15px; /* Sesuaikan ukuran padding untuk navigasi */
+    }
+
+    main {
+        max-width: 100%;
+        flex-direction: column; /* Ubah tata letak menjadi kolom untuk layar lebih kecil */
+    }
+	
+	main h1 {
+		text-align: center;
+	}
+	
+	section {
+		padding: 10px;
+	}
+
+    footer {
+        padding: 10px;
+        font-size: smaller; /* Ubah ukuran font di footer */
+    }
+
+    .header-section {
+        height: 200px; /* Kurangi tinggi header untuk resolusi ini */
+        background-size: cover;
+    }
+
+    .tree .node {
+        margin: 5px;
+        padding: 5px; /* Sesuaikan ukuran node */
+        font-size: small; /* Kurangi ukuran font untuk teks */
+    }
+}
   
