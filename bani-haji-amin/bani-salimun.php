@@ -1,19 +1,16 @@
 <?php 
-    const NAMA ='Bapak Kuat';
+    const NAMA ='Bapak Salimun';
     include 'header.php'; 
 ?>
     <main>
         <section>
-            <h2><?=NAMA?> beristri Ibu Fatimah</h2>
-            <p><?=NAMA?> anak dari Bapak Ahmad Sidiq. <?=NAMA?> beristri Ibu Fatimah. <?=NAMA?> memiliki 6 anak:</p>
-            <ol>
-                <li>Bapak/Ibu Rus</li>
-                <li>Bapak Soiman</li>
-                <li>Bapak Soleman</li>
-                <li>Ibu Toimah</li>
-                <li>Ibu Hotimah</li>
-                <li>Bapak Hartono</li>
-            </ol>
+            <h2><?=NAMA?></h2>
+            <p><?=NAMA?> anak dari Bapak Ahmad Yusuf. <?=NAMA?> memiliki 3 anak:</p>
+            <ol>			
+				<li>Bapak Ahmad Dini Lutfi</li>   
+				<li>Ibu Kholifatul</li>   
+				<li>Ibu Naeli Amalina</li>   
+			</ol>
         </section>
         <section>
             <h2>Garis Keturunan</h2>
@@ -22,7 +19,7 @@
                 <div class="line"></div>
                 <div class="node"><a href="./index.php">Bapak H. Amin</a></div>
                 <div class="line"></div>
-                <div class="node"><a href="./bani-ahmad-sidiq.php">Bapak Ahmad Sidiq</a></div>
+                <div class="node"><a href="./bani-ahmad-yusuf.php">Bapak Ahmad Yusuf</a></div>
                 <div class="line"></div>                
                 <div class="node"><?=NAMA?></div>
             </div>
