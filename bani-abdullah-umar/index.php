@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bani K.H. Abdurrozaq</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
     <main>
         <section>
             <h2>Ibu Mariyah bersuami Bapak Abdullah Umar</h2>
@@ -32,6 +23,4 @@
             </div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
-</body>
-</html>
+<?php include '../footer.php'; ?>
