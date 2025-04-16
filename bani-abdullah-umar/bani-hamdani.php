@@ -1,14 +1,17 @@
-<?php include 'header.php'; ?>
+<?php 
+const NAMA = 'Bapak Hamdani';
+include 'header.php'; 
+?>
 	<main>
 		<section>
-			<h1>Bapak Hamdani</h1>
-			<p>Bapak Hamdani adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. Beliau memiliki 5 orang anak, yaitu:</p>
+			<h1><?=NAMA?></h1>
+			<p><?=NAMA?> adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. <?=NAMA?> memiliki 5 orang anak, yaitu:</p>
 			<ol>
-				<li><a href="#">Ibu Muhtasiroh</a></li>
-				<li><a href="#">Ibu Soimah/Jibrog</a></li>
-				<li><a href="#">Bapak M. Hendar</a></li>
-                <li><a href="#">Bapak Tasdik</a></li>
-                <li><a href="#">Ibu Syifa</a></li>
+				<li><a href="bani-mustahiroh.php">Ibu Mustahiroh</a></li>
+				<li><a href="bani-soimah.php">Ibu Soimah/Jibrog</a></li>
+				<li>Bapak M. Hendar</li>
+                <li>Bapak Tasdik</li>
+                <li><a href="bani-syifa.php">Ibu Syifa</a></li>
 			</ol>
 		</section>
 		<section>
@@ -18,7 +21,7 @@
                 <div class="line"></div>
                 <div class="node"><a href="index.php">Ibu Mariyah</a></div>
                 <div class="line"></div>
-                <div class="node">Bapak Hamdani</div>
+                <div class="node"><?=NAMA?></div>
             </div>
         </section>
 	</main>

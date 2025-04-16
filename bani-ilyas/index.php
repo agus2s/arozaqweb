@@ -2,7 +2,7 @@
   
 <main>
     <section>
-        <h2>Bapak Hasan Ilyas</h2>
+        <h2>Bapak Hasan Ilyas beristri Ibu Rochyati</h2>
         <p>Bapak Hasan Ilyas anak dari K.H. Abdurrozaq. Bapak Hasan Ilyas tinggal di Desa Sidamulya Kecamatan Sidareja. Beliau beristri Ibu Rochyati. Beliau memiliki 3 orang anak:</p>
         <ol>
             <li><a href="bani-agus.php">Ibu Umi Latifah bersuami Bapak Agus Supriyadi</a></li>
@@ -11,7 +11,7 @@
         </ol>
     </section>
     <section>
-            <h2>Garis Keturunan</h2>
+            <h3>Garis Keturunan</h3>
             <div class="tree">
                 <div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
                 <div class="line"></div>

@@ -1,5 +1,5 @@
 <?php 
-const NAMA = 'Bapak Mujahid';
+const NAMA = 'Bapak Muhtadi';
 include 'header.php'; 
 ?>
 
@@ -8,14 +8,14 @@ include 'header.php';
         <h2><?=NAMA?></h2>
         <p><?=NAMA?> anak dari Ibu Hamidah. <?=NAMA?> memiliki 8 orang anak, yaitu:</p>
         <ol>
-			<li>Ibu Laelatul Ngidyah</li>
-            <li>Bapak Fauzan</li>
-            <li>Bapak Mustofa</li>
-            <li>Ibu Ghoniyah</li>            
-            <li>Bapak Murtadho</li>
-            <li>Ibu Murtofingah</li>
-            <li>Bapak Muntaha</li>
-            <li>Bapak Iskandar</li>
+			<li>Bapak Fatkhul Humam</li>
+			<li>Ibu Khimayatul Karomah</li>
+			<li>Ibu Mutamimah</li>
+			<li>Bapak Ngatourrohman</li>
+			<li>Bapak Hadadul Ahkam</li>
+			<li>Ibu Masruhah</li>
+			<li>Ibu Mei Muadibah</li>
+			<li>Bapak Syahrul</li>
         </ol>
     </section>
     <section>

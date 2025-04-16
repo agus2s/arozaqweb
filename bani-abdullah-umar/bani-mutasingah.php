@@ -1,21 +1,19 @@
 <?php 
-const NAMA = 'Bapak Mujahid';
+define ('NAMA', 'Ibu Mutasingah');
 include 'header.php'; 
 ?>
 
 <main>
     <section>
         <h2><?=NAMA?></h2>
-        <p><?=NAMA?> anak dari Ibu Hamidah. <?=NAMA?> memiliki 8 orang anak, yaitu:</p>
+        <p><?=NAMA?> anak dari Ibu Hamidah. <?=NAMA?> memiliki 6 orang anak, yaitu:</p>
         <ol>
-			<li>Ibu Laelatul Ngidyah</li>
-            <li>Bapak Fauzan</li>
-            <li>Bapak Mustofa</li>
-            <li>Ibu Ghoniyah</li>            
-            <li>Bapak Murtadho</li>
-            <li>Ibu Murtofingah</li>
-            <li>Bapak Muntaha</li>
-            <li>Bapak Iskandar</li>
+			<li>Ibu Nida</li>
+			<li>Ibu Marjuni</li>
+			<li>Ibu Ikoh</li>
+			<li>Ibu Lina</li>
+			<li>Bapak Ngafifudin</li>
+			<li>Bapak Salim</li>
         </ol>
     </section>
     <section>

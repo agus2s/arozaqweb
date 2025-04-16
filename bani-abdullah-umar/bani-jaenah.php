@@ -1,26 +1,29 @@
-<?php include 'header.php'; ?>
+<?php 
+const NAMA = 'Ibu Jaenah';
+include 'header.php'; 
+?>
 	<main>
 		<section>
-			<h1>Ibu Jaenah</h1>
-			<p>Ibu Jaenah adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. Beliau memiliki 7 orang anak, yaitu:</p>
+			<h1><?=NAMA?></h1>
+			<p><?=NAMA?> adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. <?=NAMA?> memiliki 7 orang anak, yaitu:</p>
 			<ol>
-				<li><a href="#">Ibu Rohimah</a></li>
-				<li><a href="#">Bapak Ngatoil</a></li>
-				<li><a href="#">Bapak Mungalim</a></li>
-                <li><a href="#">Ibu Tarwiyah/Ngasimah</a></li>
-                <li><a href="#">Ibu Inganah</a></li>
-                <li><a href="#">Bapak Mutowali</a></li>
-                <li><a href="#">Ibu Khotimah</a></li>
+				<li><a href="bani-rohimah.php">Ibu Rohimah</a></li>
+				<li><a href="bani-ngatoil.php">Bapak Ngatoil</a></li>
+				<li><a href="bani-mungalim.php">Bapak Mungalim</a></li>
+                <li><a href="bani-ngasimah.php">Ibu Tarwiyah/Ngasimah</a></li>
+                <li>Ibu Inganah</li>
+                <li>Bapak Mutowali</li>
+                <li>Ibu Khotimah</li>
 			</ol>
 		</section>
 		<section>
-            <h2>Garis Keturunan</h2>
+            <h3>Garis Keturunan</h3>
             <div class="tree" id="silsilah">
                 <div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
                 <div class="line"></div>
                 <div class="node"><a href="index.php">Ibu Mariyah</a></div>
                 <div class="line"></div>
-                <div class="node">Ibu Jaenah</div>
+                <div class="node"><?=NAMA?></div>
             </div>
         </section>
 	</main>

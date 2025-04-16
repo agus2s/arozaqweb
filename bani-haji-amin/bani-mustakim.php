@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php 
+define('NAMA', 'Ibu Saridem');
+include 'header.php'; 
+?>
 
 <main>
 	<section>

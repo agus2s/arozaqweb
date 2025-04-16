@@ -4,9 +4,9 @@
 			<h2>Ibu Romlah</h2>
 			<p>Ibu Romlah adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. Beliau memiliki 3 orang anak, yaitu:</p>
 			<ol>
-				<li><a href="#">Ibu Ghonimah</a></li>
-				<li><a href="#">Bapak Muhdi</a></li>
-				<li><a href="#">Ibu Muntasiroh</a></li>
+				<li>Ibu Ghonimah</li>
+				<li><a href="bani-muhdi.php">Bapak Muhdi</a></li>
+				<li>Ibu Muntasiroh</li>
 			</ol>
 		</section>
 		<section>

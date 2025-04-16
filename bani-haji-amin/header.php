@@ -1,9 +1,18 @@
+<?php
+	if (defined('NAMA')) {
+		$title = NAMA;
+	}
+	else
+	{	
+		$title = 'Bapak H. Amin beristri Ibu Satariyah';
+	};
+?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bani K.H. Abdurrozaq</title>
+<title><?=$title?></title>
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>

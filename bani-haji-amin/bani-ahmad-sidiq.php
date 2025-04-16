@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php 
+const NAMA = 'Bapak Ahmad Sidiq';
+include 'header.php'; 
+?>
     <main>
         <section>
             <h2>Bapak Ahmad Sidiq</h2>
@@ -9,7 +12,7 @@
             </ol>
         </section>
         <section>
-            <h2>Garis Keturunan</h2>
+            <h3>Garis Keturunan</h3>
             <div class="tree" id="silsilah">
                 <div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
                 <div class="line"></div>

@@ -1,6 +1,6 @@
   <?php
+	define('NAMA','Ibu Umi Latifah');
     include 'header.php';
-	const NAMA = 'Ibu Umi Latifah';
   ?>
   <main>
     <section>
@@ -13,7 +13,7 @@
         </ol>
     </section>
 	<section>
-		<h2>Garis Keturunan</h2>
+		<h3>Garis Keturunan</h3>
 		<div class="tree" id="silsilah">
 			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
 			<div class="line"></div>

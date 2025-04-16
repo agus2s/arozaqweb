@@ -1,12 +1,16 @@
-<?php 
-	const KAKEK = 'K.H. Abdurrozaq';
+<?php
+	if (defined('NAMA')) {
+		$title = NAMA;
+	} else {	
+		$title = 'Ibu Satibah bersuami Bapak Ahmad Abdullah Sumeri';
+	};
 ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bani <?= KAKEK; ?></title>
+<title><?=$title?></title>
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>

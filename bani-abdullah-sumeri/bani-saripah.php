@@ -1,6 +1,6 @@
 <?php 
-	include 'header.php'; 
 	const NAMA = 'Ibu Saripah';
+	include 'header.php'; 
 ?>
 
 <main>
