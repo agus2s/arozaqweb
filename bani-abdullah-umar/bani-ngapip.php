@@ -6,7 +6,7 @@ include 'header.php';
 <main>
     <section>
         <h2><?=NAMA?></h2>
-        <p><?=NAMA?> anak dari Bapak Hamdani. <?=NAMA?> memiliki 3 orang anak, yaitu:</p>
+        <p><?=NAMA?> anak dari Bapak Hayan. <?=NAMA?> memiliki 3 orang anak, yaitu:</p>
         <ol>
 			<li>Ida</li>
 			<li>Deni</li>
