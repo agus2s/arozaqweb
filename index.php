@@ -16,7 +16,6 @@ const DIAGRAM =
         A --> E[Bapak Jamil]
         A --> F[Bapak Ilyas]
         A --> G[Ibu Satibah]
-        click A "index.php"
         click B "bani-haji-amin"
         click C "bani-abdullah-umar"
         click D "bani-sarbini"
