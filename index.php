@@ -9,7 +9,15 @@
 
     async function renderMermaid() {
         const elementId = "mermaidChart";
-        const diagramDefinition = `flowchart LR; [Mbah Abdurrozaq] --> [Bapak H. Amin]; [Mbah Abdurrozaq] --> [Ibu Mariyah]; [Mbah Abdurrozaq] --> [Ibu Sujiah/Marjiah]; [Mbah Abdurrozaq] --> [Bapak Ilyas]; [Mbah Abdurrozaq] --> [Bapak Jamil]; [Mbah Abdurrozaq] --> [Ibu Satibah]`;
+        const diagramDefinition = 
+        `flowchart LR
+            A[Mbah Abdurrozaq]
+            A --> B[Bapak H. Amin]
+            A --> C[Ibu Mariyah]
+            A --> D[Ibu Sujiah/Marjiah]
+            A --> R[Bapak Ilyas]
+            A --> F[Bapak Jamil]
+            A --> G[Ibu Satibah]`;
         const { svg } = await mermaid.render(elementId, diagramDefinition);
         document.getElementById("output").innerHTML = svg;
     }
