@@ -9,7 +9,7 @@
 
     async function renderMermaid() {
         const elementId = "mermaidChart";
-        const diagramDefinition = `--- config: look: classic --- flowchart LR A[Mbah Abdurrozaq] A --> [Bapak H. Amin] & [Ibu Mariyah] & [Ibu Sujiah/Marjiah] & [Bapak Ilyas] & [Bapak Jamil] & [Ibu Satibah]`;
+        const diagramDefinition = `flowchart LR [Mbah Abdurrozaq] --> [Bapak H. Amin]; [Mbah Abdurrozaq] --> [Ibu Mariyah]; [Mbah Abdurrozaq] --> [Ibu Sujiah/Marjiah]; [Mbah Abdurrozaq] --> [Bapak Ilyas]; [Mbah Abdurrozaq] --> [Bapak Jamil]; [Mbah Abdurrozaq] --> [Ibu Satibah]`;
         const { svg } = await mermaid.render(elementId, diagramDefinition);
         document.getElementById("output").innerHTML = svg;
     }
