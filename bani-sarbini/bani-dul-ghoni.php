@@ -1,5 +1,5 @@
 <?php 
-const NAMA = 'Ibu 'Ariyah'';
+const NAMA = 'Ibu \'Ariyah';
 include 'header.php'; 
 ?>
 
