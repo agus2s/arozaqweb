@@ -11,7 +11,7 @@ include 'header.php';
                 <li><a href="bani-mustakim.php">Ibu Natijatul Muna bersuami Bapak H. Mustakim</a></li>
                 <li><a href="bani-huda.php">Bapak Mun'imul Huda beristri Ibu Munjayanah</a></li>
                 <li><a href="bani-toifur.php">Ibu Kharisatun Uwliyah bersuami Bapak Thoifur</a></li>
-                <li><a href="#">Bapak Ulun Nuha beristri Ibu Iin Kurniasih</a></li>
+                <li><a href="bani-nuha.php">Bapak Ulun Nuha beristri Ibu Iin Kurniasih</a></li>
             </ol>
         </section>
         <section>
