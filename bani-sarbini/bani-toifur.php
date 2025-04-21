@@ -1,13 +1,15 @@
 <?php 
-const NAMA = 'Ibu Hj. Natijatul Muna';
+const NAMA = 'Ibu Kharisatun Uwliyah';
 include 'header.php'; 
 ?>
     <main>
         <section>
-            <h2><?=NAMA?> bersuami Bapak H. Mustakim</h2>
-            <p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> bersuami Bapak H. Mustakim. <?=NAMA?> memiliki anak:</p>
+            <h2><?=NAMA?> bersuami Bapak Thoifur</h2>
+            <p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> bersuami Bapak Thoifur. <?=NAMA?> memiliki 3 orang anak, yaitu:</p>
             <ol>
-                <li>Niswatu Sa'ida Amania</li>
+                <li>Nabih</li>
+				<li>Nabhan</li>
+				<li>Aniq</li>
             </ol>
         </section>
         <section>
