@@ -1,16 +1,16 @@
 <?php 
-const NAMA = 'Bapak H. Mun\'imul Huda';
+const NAMA = 'Bapak Ulun Nuha';
 include 'header.php'; 
 ?>
     <main>
         <section>
-            <h2><?=NAMA?> beristri Ibu Hj. Munjayanah</h2>
-            <p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> beristri Ibu Hj. Munjayanah. <?=NAMA?> memiliki 4 orang anak, yaitu:</p>
+            <h2><?=NAMA?> beristri Ibu Iin Kurniasih</h2>
+            <p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> beristri Ibu Iin Kurniasih. <?=NAMA?> memiliki 4 orang anak, yaitu:</p>
             <ol>
-                <li>Husna</li>
-				<li>Naila</li>
-				<li>Idris</li>
-				<li>Najihah</li>
+                <li>Ahsan</li>
+				<li>Aqil</li>
+				<li>Aqila</li>
+				<li>Amrina</li>
             </ol>
         </section>
         <section>
