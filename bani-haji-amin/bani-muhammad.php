@@ -1,6 +1,7 @@
 <?php 
-define('NAMA', 'Bapak Muhammad');
-include 'header.php'; ?>
+const NAMA = 'Bapak Muhammad';
+include 'header.php'; 
+?>
 <main>
     <section>
         <h1><?=NAMA?></h1>

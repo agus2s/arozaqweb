@@ -1,5 +1,5 @@
 <?php 
-define ('NAMA', 'Bapak Fatoni');
+define const NAMA = 'Bapak Fatoni';
 include 'header.php'; 
 ?>
 

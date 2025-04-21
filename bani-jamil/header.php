@@ -2,7 +2,7 @@
 if (defined('NAMA')) {
 	$title = NAMA;
 } else {
-	$title = 'Bapak Jamil beristri Ibu Maemunah';
+	$title = 'Bapak Muhammad Jamil beristri Ibu Maemunah';
 }
 ?>
 <!DOCTYPE html>

@@ -1,8 +1,11 @@
-<?php include 'header.php'; ?>
+<?php 
+cosnt NAMA = 'Bapak Abdul Qohar';
+include 'header.php'; 
+?>
     <main>
         <section>
-            <h2>Bapak Abdul Qohar beristri Ibu Marchamah</h2>
-            <p>Bapak Abdul Qohar anak dari Ibu Sujiah/Ibu Marjiah dan Bapak Sarbini. Bapak Abdul Qohar beristri Ibu Marchamah. Beliau memiliki 5 anak:</p>
+            <h2><?=NAMA?> beristri Ibu Marchamah</h2>
+            <p><?=NAMA?> anak dari Ibu Sujiah/Ibu Marjiah dan Bapak Sarbini. <?=NAMA?> Abdul Qohar beristri Ibu Marchamah. <?=NAMA?> memiliki 5 anak:</p>
             <ol>
                 <li><a href="#">Ibu Dingayatul Khoeriyah bersuami Bapak Wachyudin</a></li>
                 <li><a href="bani-mustakim.php">Ibu Natijatul Muna bersuami Bapak H. Mustakim</a></li>
@@ -18,7 +21,7 @@
                 <div class="line"></div>
                 <div class="node"><a href="index.php">Ibu Sujiah/Marjiah</a></div>
                 <div class="line"></div>
-                <div class="node">Bapak Abdul Qohar</div>
+                <div class="node"><?=NAMA?></div>
             </div>
         </section>
     </main>

@@ -1,12 +1,12 @@
 <?php 
-define('NAMA', 'Ibu Saridem');
+const NAMA = 'Ibu Saridem';
 include 'header.php'; 
 ?>
 
 <main>
 	<section>
-		<h2>Ibu Saridem bersuami Bapak Mustakim</h2>
-		<p>Ibu Saridem anak dari Bapak H. Amin. Ibu Saridem bersuami Bapak Mustakim. Beliau memiliki 5 orang anak:</p>
+		<h2><?=NAMA?> bersuami Bapak Mustakim</h2>
+		<p><?=NAMA?> anak dari Bapak H. Amin. <?=NAMA?> bersuami Bapak Mustakim. <?=NAMA?> memiliki 5 orang anak:</p>
 		<ol>
 			<li><a href="#">Ibu Mustanginah</a></li>
 			<li><a href="#">Ibu Tunjiyah</a></li>
@@ -22,7 +22,7 @@ include 'header.php';
 			<div class="line"></div>
 			<div class="node"><a href="index.php">Bapak H. Amin</a></div>
 			<div class="line"></div>
-			<div class="node">Ibu Saridem</div>
+			<div class="node"><?=NAMA?></div>
 		</div>
 	</section>
 </main>

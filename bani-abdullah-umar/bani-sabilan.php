@@ -1,8 +1,11 @@
-<?php include 'header.php'; ?>
+<?php 
+const NAMA = 'Ibu Aisyah';
+include 'header.php'; 
+?>
 <main>
     <section>
-        <h2>Ibu Aisyah bersuami Bapak Sabilan</h2>
-        <p>Ibu Aisyah adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. Beliau memiliki 6 orang anak:</p>
+        <h2><?=NAMA?> bersuami Bapak Sabilan</h2>
+        <p><?=NAMA?> adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. <?=NAMA?> memiliki 6 orang anak:</p>
         <ol>
             <li><a href="bani-mujayir.php">Bapak Mujayir/Dahlan</a></li>
 			<li><a href="bani-mukhlas.php">Bapak Mukhlas</a></li>
@@ -20,7 +23,7 @@
             <div class="line"></div>
             <div class="node"><a href="index.php">Ibu Mariyah</a></div>
             <div class="line"></div>
-            <div class="node">Ibu Aisyah</div>
+            <div class="node"><?=NAMA?></div>
         </div>
     </section>
 </main>

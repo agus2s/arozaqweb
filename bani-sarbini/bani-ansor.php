@@ -1,9 +1,12 @@
-<?php include 'header.php'; ?>
+<?php 
+cosnt NAMA = 'Ibu Nafsatun';
+include 'header.php'; 
+?>
 	
 <main>
 	<section>
-		<h2>Ibu Nafsatun bersuami Bapak Ansor</h2>
-		<p>Ibu Nafsatun anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. Ibu Nafsatun bersuami Bapak Ansor. Beliau memiliki 5 anak:</p>
+		<h2><?=NAMA?> bersuami Bapak Ansor</h2>
+		<p><?=NAMA?> anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. <?=NAMA?> bersuami Bapak Ansor. <?=NAMA?> memiliki 5 anak:</p>
 		<ol>
 			<li><a href="#">Ibu Lembut/Ngafiyah</a></li>
 			<li><a href="#">Bapak Sodik</a></li>
@@ -20,7 +23,7 @@
 			<div class="line"></div>
 			<div class="node"><a href="index.php">Ibu Sujiah/Marjiah</a></div>
 			<div class="line"></div>
-			<div class="node">Ibu Nafsatun</div>
+			<div class="node"><?=NAMA?></div>
 		</div>
 	</section>
 </main>

@@ -1,10 +1,12 @@
-<?php include 'header.php'; ?>
-
+<?php 
+const NAMA = 'Ibu 'Ariyah'';
+include 'header.php'; 
+?>
 
 <main>
 	<section>
-		<h1>Ibu 'Ariyah bersuami Bapak Dul Ghoni</h1>
-		<p>Ibu 'Ariyah anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. Ibu 'Ariyah' bersuami Bapak Dul Ghoni. Beliau memiliki 6 anak, yaitu:</p>
+		<h1><?=NAMA?> bersuami Bapak Dul Ghoni</h1>
+		<p><?=NAMA?> anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. <?=NAMA?> bersuami Bapak Dul Ghoni. <?=NAMA?> memiliki 6 anak, yaitu:</p>
 		<ol>
 			<li><a href="#">Ibu Badriyah</a></li>
 			<li><a href="#">Bapak H. Zubaidi</a></li>
@@ -21,7 +23,7 @@
 			<div class="line"></div>
 			<div class="node"><a href="index.php">Ibu Sujiah/Marjiah</a></div>
 			<div class="line"></div>
-			<div class="node">Ibu 'Ariyah</div>
+			<div class="node"><?=NAMA?></div>
 		</div>
 	</section>
 </main>
