@@ -22,7 +22,7 @@ include 'header.php';
 		<div class="line"></div>
 		<div class="node"><a href="index.php">Ibu Satibah</a></div>
 		<div class="line"></div>
-		<div class="node"><?= NAMA; ?></div>
+		<div class="node"><?=NAMA?></div>
 	</div>
 </section>
 </main>
