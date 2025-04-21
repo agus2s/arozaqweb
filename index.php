@@ -14,9 +14,17 @@
                     A --> B[Bapak H. Amin]
                     A --> C[Ibu Mariyah]
                     A --> D[Ibu Sujiah/Marjiah]
-                    A --> R[Bapak Ilyas]
-                    A --> F[Bapak Jamil]
-                    A --> G[Ibu Satibah]`;
+                    A --> E[Bapak Jamil]
+                    A --> F[Bapak Ilyas]
+                    A --> G[Ibu Satibah]
+                    click A "index.php"
+                    click B "bani-haji-amin"
+                    click C "bani-abdullah-umar"
+                    click D "bani-sarbini"
+                    click E "bani-jamil"
+                    click F "bani-ilyas"
+                    click G "bani-abdullah-sumeri"
+                    `;
                 const { svg } = await mermaid.render(elementId, diagramDefinition);
                 document.getElementById("output").innerHTML = svg;
             }
