@@ -17,13 +17,31 @@ include 'header.php';
 			<li><a href="bani-hayan.php">Bapak Hayan beristri Ibu Tasmiyah</a></li>                
 		</ol>
 	</section>
-	<section>
-		<h3>Garis Keturunan</h3>
-		<div class="tree" id="silsilah">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><?=NAMA?></div>
-		</div>
+	<section id="silsilah">
+		<h3>Silsilah Keluarga</h3>
+		<div id="output"></div>
 	</section>
 </main>
-<?php include '../footer.php'; ?>
+<?php 
+const DIAGRAM = 
+	'flowchart LR; 
+		A[Mbah Abdurrozaq] --> B[Ibu Mariyah]; 
+		B --> C[Ibu Aisyah]; 
+		B --> D[Bapak Imron]; 
+		B --> E[Bapak Bahrudin]; 
+		B --> F[Ibu Hamidah]; 
+		B --> G[Ibu Romlah]; 
+		B --> H[Ibu Jaenah]; 
+		B --> I[Bapak Hamdani]; 
+		B --> J[Bapak Hayan]
+		click A "../index.php";
+		click C "bani-sabilan.php";
+		click E "bani-bahrudin.php";
+		click F "bani-abu-nangim.php";
+		click G "bani-romlah.php";
+		click H "bani-jaenah.php";
+		click I "bani-hamdani.php";
+		click J "bani-hayan.php";
+		';
+include '../footer.php'; 
+?>

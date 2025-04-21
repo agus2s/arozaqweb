@@ -11,13 +11,22 @@
 			<li><a href="bani-saripah.php">Ibu Saripah</a></li>
 		</ol>
 	</section>
-	<section>
-		<h3>Garis Keturunan</h3>
-		<div class="tree" id="silsilah">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><?=NAMA?></div>
-		</div>
+	<section id="silsilah">
+		<h3>Silsilah Keluarga</h3>
+		<div id="output"></div>
 	</section>
 </main>
-<?php include '../footer.php'; ?>
+<?php 
+const DIAGRAM = 
+	'flowchart LR;
+		A["Mbah Abdurrozaq"] --> B["Ibu Satibah"];
+		B --> C["Ibu Hasanah"];
+		B --> D["Bapak Mahali"];
+		B --> E["Ibu Saripah"];
+		click A "../index.php";
+		click C "bani-ruslan.php";
+		click D "bani-mahali.php";
+		click E "bani-saripah.php";
+	';
+include '../footer.php'; 
+?>

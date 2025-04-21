@@ -2,7 +2,7 @@
 const NAMA = 'Bapak Hasan Ilyas';
 include 'header.php'; 
 ?>
-  
+
 <main>
     <section>
         <h2><?=NAMA?> beristri Ibu Rochyati</h2>
@@ -13,13 +13,22 @@ include 'header.php';
             <li><a href="bani-arsyad.php">Ibu Malehatun bersuami Bapak Arsyad Anwar</a></li>
         </ol>
     </section>
-    <section>
-            <h3>Garis Keturunan</h3>
-            <div class="tree">
-                <div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-                <div class="line"></div>
-                <div class="node"><?=NAMA?></div>
-            </div>
-        </section>
+    <section id="silsilah">
+        <h3>Silsilah Keluarga</h3>
+        <div id="output"></div>
+    </section>
 </main>
-<?php include '../footer.php'; ?>;
+<?php 
+const DIAGRAM = 
+    'flowchart LR;
+        A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
+        B --> C["Ibu Umi Latifah"];
+        B --> D["Ibu Hindun Asfiyah"];
+        B --> E["Ibu Malehatun"];
+        click A "../index.php";
+        click C "bani-agus.php";
+        click D "bani-nurman.php";
+        click E "bani-arsyad.php";
+    ';
+include '../footer.php'; 
+?>

@@ -16,13 +16,28 @@
 			<li><a href="#">Ibu Mukronah</a></li>
 		</ol>
 	</section>
-	<section>
-		<h2>Garis Keturunan</h2>
-		<div class="tree">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><?=NAMA?></div>
-		</div>
+	<section id="silsilah">
+		<h3>Silsilah Keluarga</h3>
+		<div id="output"></div>
 	</section>
 </main>
-<?php include '../footer.php'; ?>
+<?php 
+const DIAGRAM = 
+	'flowchart LR;
+		A["Mbah Abdurrozaq"] --> B["Ibu Sujiah/Marjiah"];
+		B --> C["Ibu \'Ariyah"];
+		B --> D["Ibu Nafsatun"];
+		B --> E["Ibu \'Afinah"];
+		B --> F["Bapak Ahmad Sumedi"];
+		B --> G["Ibu Alfiyah"];
+		B --> H["Bapak Abdul Qohar"];
+		B --> I["Ibu Mukronah"];
+		click A "../index.php";
+		click C "bani-dul-ghoni.php";
+		click D "bani-ansor.php";
+		click E "bani-afinah.php";
+		click F "bani-ahmad-sumedi.php";
+		click H "bani-abdul-qohar.php";
+	';
+include '../footer.php'; 
+?>
