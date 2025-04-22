@@ -13,7 +13,7 @@ include 'header.php';
 	</section>
 	<section>
 		<h3>Garis Keturunan</h3>
-		<div class="tree" id="silsilah">
+		<div class="tree">
 			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
 			<div class="line"></div>
 			<div class="node"><a href="./index.php">Bapak H. Amin</a></div>
@@ -21,5 +21,20 @@ include 'header.php';
 			<div class="node"><?=NAMA?></div>
 		</div>
 	</section>
+	<section id="silsilah">
+		<h3>Silsilah Keluarga</h3>
+		<div id="output"></div>
+	</section>
 </main>
-<?php include '../footer.php'; ?>  
+<?php 
+const DIAGRAM = 
+	'flowchart LR;
+		A["Bapak H. Amin"] --> B["Bapak Ahmad Sidiq"];
+		B --> C["Ibu Kasiyah"];
+		B --> D["Bapak Kuat"];
+		click A "index.php";
+		click C "bani-kasiyah.php";
+		click D "bani-kuat.php";
+	';
+include '../footer.php'; 
+?>  
