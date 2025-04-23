@@ -153,3 +153,49 @@ a:hover {
     }
 }
   
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px; /* Ubah ukuran font judul untuk layar kecil */
+    }
+
+    nav a {
+        padding: 8px 12px; /* Sesuaikan ukuran padding untuk navigasi */
+    }
+
+    main {
+        padding: 10px; /* Kurangi padding di dalam main */
+    }
+
+    footer {
+        padding: 5px; /* Kurangi padding di footer */
+        font-size: smaller; /* Ubah ukuran font di footer */
+    }
+
+    .header-section {
+        height: 150px; /* Kurangi tinggi header untuk resolusi ini */
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 20px; /* Ubah ukuran font judul untuk layar kecil */
+    }
+
+    nav a {
+        padding: 5px 10px; /* Sesuaikan ukuran padding untuk navigasi */
+    }
+
+    main {
+        padding: 5px; /* Kurangi padding di dalam main */
+    }
+
+    footer {
+        padding: 5px; /* Kurangi padding di footer */
+        font-size: x-small; /* Ubah ukuran font di footer */
+    }
+
+    .header-section {
+        height: 120px; /* Kurangi tinggi header untuk resolusi ini */
+        background-size: cover;
+    }
+}
