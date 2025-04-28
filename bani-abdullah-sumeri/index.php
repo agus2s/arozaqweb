@@ -13,20 +13,16 @@
 	</section>
 	<section id="silsilah">
 		<h3>Silsilah Keluarga</h3>
-		<div id="output"></div>
+		<div class="mermaid">flowchart TD;
+		A["Mbah Abdurrozaq"] --> B["Ibu Satibah"];
+		B --> |bersuami|C["Bapak Ahmad Abdullah Sumeri"];
+		C --> D["Ibu Hasanah"];
+		C --> E["Bapak Mahali"];
+		C --> F["Ibu Saripah"];
+		click A "../index.php";
+		click D "bani-ruslan.php";
+		click E "bani-mahali.php";
+		click F "bani-saripah.php";</div>
 	</section>
 </main>
-<?php 
-const DIAGRAM = 
-	'flowchart LR;
-		A["Mbah Abdurrozaq"] --> B["Ibu Satibah"];
-		B --> C["Ibu Hasanah"];
-		B --> D["Bapak Mahali"];
-		B --> E["Ibu Saripah"];
-		click A "../index.php";
-		click C "bani-ruslan.php";
-		click D "bani-mahali.php";
-		click E "bani-saripah.php";
-	';
-include '../footer.php'; 
-?>
+<?php include '../footer.php'; ?>

@@ -3,12 +3,7 @@
     <?php include 'root.php'; ?> 
     <section id="silsilah"> 
         <h3>Silsilah Keluarga</h3> 
-        <div id="output"></div> 
-    </section> 
-</main> 
-<?php 
-const DIAGRAM = 
-'flowchart LR
+        <div class="mermaid">flowchart LR
         A[Mbah Abdurrozaq]
         A --> B[Bapak H. Amin]
         A --> C[Ibu Mariyah]
@@ -21,7 +16,7 @@ const DIAGRAM =
         click D "bani-sarbini"
         click E "bani-jamil"
         click F "bani-ilyas"
-        click G "bani-abdullah-sumeri"';
-        
-include 'footer.php'; 
-?>
+        click G "bani-abdullah-sumeri"</div> 
+    </section> 
+</main> 
+<?php include 'footer.php'; ?>

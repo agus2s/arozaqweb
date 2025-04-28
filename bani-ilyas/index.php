@@ -13,22 +13,18 @@ include 'header.php';
             <li><a href="bani-arsyad.php">Ibu Malehatun bersuami Bapak Arsyad Anwar</a></li>
         </ol>
     </section>
-    <section id="silsilah">
-        <h3>Silsilah Keluarga</h3>
-        <div id="output"></div>
+    <section>
+        <h3>silsilah Keluarga</h3>
+        <div class="mermaid" id="silsilah">flowchart TD;
+            A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
+        B["Bapak Hasan Ilyas"] --> |beristri|C["Ibu Rochyati"];
+        C --> D["Ibu Umi Latifah"];
+        C --> E["Ibu Hindun Asfiyah"];
+        C --> F["Ibu Malehatun"];
+        click A "../index.php";
+        click D "bani-agus.php";
+        click E "bani-nurman.php";
+        click F "bani-arsyad.php";</div>
     </section>
 </main>
-<?php 
-const DIAGRAM = 
-    'flowchart LR;
-        A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
-        B --> C["Ibu Umi Latifah"];
-        B --> D["Ibu Hindun Asfiyah"];
-        B --> E["Ibu Malehatun"];
-        click A "../index.php";
-        click C "bani-agus.php";
-        click D "bani-nurman.php";
-        click E "bani-arsyad.php";
-    ';
-include '../footer.php'; 
-?>
+<?php include '../footer.php'; ?>

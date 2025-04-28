@@ -23,23 +23,16 @@ include 'header.php';
 	</section>
 	<section>
 		<h3>Garis Keturunan</h3>
-		<div class="tree">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</div>
-			<div class="line"></div>
-			<div class="node"><a href="index.php">Bapak H. Amin</a></div>
-			<div class="line"></div>
-			<div class="node"><?=NAMA?></div>
-		</div>
+		<div class="mermaid" id="silsilah">flowchart TD;
+		A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"];
+		B --> C["Bapak Ahmad Yusuf"];
+		click A "../index.php";
+		click B "index.php";</div>
 	</section>
-	<section id="silsilah">
+	<section>
 		<h3>Silsilah Keluarga</h3>
-		<div id="output"></div>	
-	</section>
-</main>
-<?php 
-const DIAGRAM = 
-	'flowchart LR;
-		A["Bapak H. Amin"] --> B["Bapak Ahmad Yusuf"];
+		<div class="mermaid">flowchart LR;
+		B["Bapak Ahmad Yusuf"];
 		B --> C["Bapak/Ibu Lapi"];
 		B --> D["Ibu Sariyah"];
 		B --> E["Bapak Sarman"];
@@ -61,7 +54,7 @@ const DIAGRAM =
 		click I "bani-samingun.php";
 		click J "bani-ludiyah.php";
 		click K "bani-surat.php";
-		click L "bani-ngantun.php";
-	';
-include '../footer.php'; 
-?>
+		click L "bani-ngantun.php";</div>	
+	</section>
+</main>
+<?php include '../footer.php'; ?>

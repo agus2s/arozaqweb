@@ -17,15 +17,17 @@ include 'header.php';
 			<li><a href="bani-hayan.php">Bapak Hayan beristri Ibu Tasmiyah</a></li>                
 		</ol>
 	</section>
-	<section id="silsilah">
-		<h3>Silsilah Keluarga</h3>
-		<div id="output"></div>
+	<section>
+		<h3>Garis Keturunan</h3>
+		<div class="mermaid" id="silsilah">flowchart TD;
+			A[Mbah Abdurrozaq] --> B[Ibu Mariyah];
+			click A "../index.php";
+		</div>
 	</section>
-</main>
-<?php 
-const DIAGRAM = 
-	'flowchart LR; 
-		A[Mbah Abdurrozaq] --> B[Ibu Mariyah]; 
+	<section>
+		<h3>Silsilah Keluarga</h3>
+		<div class="mermaid">flowchart LR; 
+		A[Ibu Mariyah] --> |bersuami| B[Bapak Abdullah Umar]; 
 		B --> C[Ibu Aisyah]; 
 		B --> D[Bapak Imron]; 
 		B --> E[Bapak Bahrudin]; 
@@ -34,14 +36,13 @@ const DIAGRAM =
 		B --> H[Ibu Jaenah]; 
 		B --> I[Bapak Hamdani]; 
 		B --> J[Bapak Hayan]
-		click A "../index.php";
 		click C "bani-sabilan.php";
 		click E "bani-bahrudin.php";
 		click F "bani-abu-nangim.php";
 		click G "bani-romlah.php";
 		click H "bani-jaenah.php";
 		click I "bani-hamdani.php";
-		click J "bani-hayan.php";
-		';
-include '../footer.php'; 
-?>
+		click J "bani-hayan.php"</div>
+	</section>
+</main>
+<?php include '../footer.php'; ?>

@@ -18,15 +18,17 @@ include 'header.php';
 			<li>Bapak Kahar</li>
 		</ol>
 	</section>
+	<section>
+		<h3>Garis Keturunan</h3>
+		<div class="mermaid">flowchart TD
+			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
+			click A "../index.php"
+			click B "index.php"
+		</div>
 	<section id="silsilah">
 		<h3>Silsilah Keluarga</h3>
-		<div id="output"></div>
-</main>
-<?php 
-const DIAGRAM =
-'flowchart LR
-		A[Mbah Abdurrozaq]
-		A --> B[Bapak H. Amin]
+		<div class="mermaid">flowchart LR
+        A[Bapak H. Amin] --- |beristri| B[Ibu Satariyah]
 		B --> C[Bapak Ahmad Sidiq]
 		B --> D[Bapak Ahmad Yusuf]
 		B --> E[Bapak Abdullah Rasyad]
@@ -41,7 +43,6 @@ const DIAGRAM =
 		click D "bani-ahmad-yusuf.php"
 		click E "bani-abdullah-rasyad.php"
 		click G "bani-mustakim.php"
-		click H "bani-muhammad.php"
-';
-include '../footer.php'; 
-?>
+		click H "bani-muhammad.php"</div>
+</main>
+<?php include '../footer.php'; ?>

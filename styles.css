@@ -109,6 +109,14 @@ a:hover {
     background-color: #6c63ff;
 }
 
+.mermaid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 #output {
     text-align: center;
     align-items: center;
