@@ -13,12 +13,17 @@ include 'header.php';
     </section>
     <section>
         <h3>Garis Keturunan</h3>
-        <div class="tree" id="silsilah">
-            <div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-            <div class="line"></div>
-            <div class="node"><a href="index.php">Bapak H. Amin</a></div>
-            <div class="line"></div>
-            <div class="node"><?=NAMA?></div>
+        <div class="mermaid" id="silsilah">flowchart TD
+            A[Mbah Abdurrozaq] --> B[Bapak H. Amin]
+            B --> C[Bapak Muhammad]
+            C --> D[Bapak Mistam]
+            C --> E[Ibu Sarwiyah]
+
+            click A "../index.php"
+            click B "index.php"
+            click D "bani-mistam.php"
+            click E "bani-sarwiyah.php"
+        </div>
     </section>
 </main>
 <?php include '../footer.php'; ?>

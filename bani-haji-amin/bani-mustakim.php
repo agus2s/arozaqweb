@@ -29,9 +29,9 @@ include 'header.php';
 		<h3>Silsilah Keluarga</h3>
 		<div class="mermaid">
 			flowchart TD
-				A["Ibu Saridem"] --> B["Ibu Mustanginah"] & C["Ibu Tunjiyah"] & D["Ibu Sujiah"]
-				A --> E["Ibu Turiyah"] & F["Ibu Solihah"]
-				G["Bapak Mustakim"] --> B & C & D & E & F
+				A["Ibu Saridem"] --> |bersuami|G["Bapak Mustakim"]
+				G --> B["Ibu Mustanginah"] & C["Ibu Tunjiyah"] & D["Ibu Sujiah"]
+				G --> E["Ibu Turiyah"] & F["Ibu Solihah"]
 		</div>
 	</section>
 </main>

@@ -117,6 +117,18 @@ a:hover {
     margin: 0 auto;
 }
 
+.mermaidTooltip {
+    position: absolute;
+    background-color: #333; /* Warna latar belakang */
+    color: #fff;           /* Warna teks */
+    padding: 10px;         /* Jarak dalam tooltip */
+    border-radius: 5px;    /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+    font-size: 14px;       /* Ukuran teks */
+    z-index: 1000;         /* Posisi di atas elemen lainnya */
+    max-width: 200px;      /* Batas lebar tooltip */
+  }  
+
 #output {
     text-align: center;
     align-items: center;
