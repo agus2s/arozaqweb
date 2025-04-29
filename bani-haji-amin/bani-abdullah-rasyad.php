@@ -17,29 +17,21 @@ include 'header.php';
 	</section>
 	<section>
 		<h3>Garis Keturunan</h3>
-		<div class="mermaid" id="silsilah">flowchart TD
-			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
-			B --> C["Bapak Abdullah Rasyad"]
+		<div class="mermaid" id="silsilah">flowchart LR
+			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"] --> C["Bapak Abdullah Rasyad"]
+			C --> 1["Ibu Kasriyah"]
+			C --> 2["Ibu Cublek Tasringah"]
+			C --> 3["Bapak Nasihin"]
+			C --> 4["Bapak Nasiran"]
+			C --> 5["Bapak Nasirin"]
+			C --> 6["Bapak Nasrudin"]
 			click A "../index.php"
 			click B "index.php"
-		</div>
-	</section>
-	<section>
-		<h3>Silsilah Keluarga</h3>
-		<div class="mermaid">flowchart LR
-			A["Bapak Abdullah Rasyad"]
-			A --> B["Ibu Kasriyah"]
-			A --> C["Ibu Cublek Tasringah"]
-			A --> D["Bapak Nasihin"]
-			A --> E["Bapak Nasiran"]
-			A --> F["Bapak Nasirin"]
-			A --> G["Bapak Nasrudin"]
-			click A "index.php"
-			click C "bani-tasringah.php"
-			click D "bani-nasihin.php"
-			click E "#bani-nasiran.php"
-			click F "bani-nasirin.php"
-			click G "bani-nasrudin.php"
+			click 2 "bani-tasringah.php"
+			click 3 "bani-nasihin.php"
+			click 4 "#bani-nasiran.php"
+			click 5 "bani-nasirin.php"
+			click 6 "bani-nasrudin.php"
 		</div>
 </main>
 <?php include '../footer.php'; ?>

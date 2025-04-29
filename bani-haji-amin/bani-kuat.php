@@ -5,7 +5,10 @@ include 'header.php';
 <main>
 	<section>
 		<h2><?=NAMA?> beristri Ibu Fatimah</h2>
-		<p><?=NAMA?> anak dari Bapak Ahmad Sidiq. <?=NAMA?> beristri Ibu Fatimah. <?=NAMA?> memiliki 6 anak:</p>
+		<p>
+			<?=NAMA?> anak dari Bapak Ahmad Sidiq. 
+			<?=NAMA?> beristri Ibu Fatimah dan memiliki 6 anak:
+		</p>
 		<ol>
 			<li>Bapak/Ibu Rus</li>
 			<li>Bapak Soiman</li>
@@ -16,15 +19,16 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-		<h2>Garis Keturunan</h2>
-		<div class="tree" id="silsilah">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="./index.php">Bapak H. Amin</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="./bani-ahmad-sidiq.php">Bapak Ahmad Sidiq</a></div>
-			<div class="line"></div>                
-			<div class="node"><?=NAMA?></div>
+		<h3>Garis Keturunan</h3>
+		<div class="mermaid" id="silsilah">
+		flowchart TD;
+		A[Mbah Abdurrozaq] --> B[Bapak H. Amin];
+		B --> C[Bapak Ahmad Sidiq];
+		C --> D[<?=NAMA?>];
+
+		click A "../index.php"
+		click B "index.php"
+		click C "bani-ahmad-sidiq.php"
 		</div>
 	</section>
 </main>

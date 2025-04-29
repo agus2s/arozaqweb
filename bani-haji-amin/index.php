@@ -20,29 +20,26 @@ include 'header.php';
 	</section>
 	<section>
 		<h3>Garis Keturunan</h3>
-		<div class="mermaid">flowchart TD
-			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
-			click A "../index.php"
-			click B "index.php"
-		</div>
-	<section id="silsilah">
-		<h3>Silsilah Keluarga</h3>
 		<div class="mermaid">flowchart LR
-        A[Bapak H. Amin] --- |beristri| B[Ibu Satariyah]
-		B --> C[Bapak Ahmad Sidiq]
-		B --> D[Bapak Ahmad Yusuf]
-		B --> E[Bapak Abdullah Rasyad]
-		B --> F[Bapak Mustagin]
-		B --> G[Ibu Saridem]
-		B --> H[Bapak Muhammad]
-		B --> I[Bapak/Ibu Tumbu]
-		B --> J[Bapak Slamet]
-		B --> K[Bapak Kahar]
+		A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
+		B --> 1[Bapak Ahmad Sidiq]
+		B --> 2[Bapak Ahmad Yusuf]
+		B --> 3[Bapak Abdullah Rasyad]
+		B --> 4[Bapak Mustagin]
+		B --> 5[Ibu Saridem]
+		B --> 6[Bapak Muhammad]
+		B --> 7[Bapak/Ibu Tumbu]
+		B --> 8[Bapak Slamet]
+		B --> 9[Bapak Kahar]
+
 		click A "../index.php"
-		click C "bani-ahmad-sidiq.php"
-		click D "bani-ahmad-yusuf.php"
-		click E "bani-abdullah-rasyad.php"
-		click G "bani-mustakim.php"
-		click H "bani-muhammad.php"</div>
+		click B "index.php"
+		click A "../index.php"
+		click 1 "bani-ahmad-sidiq.php" "Bapak Ahmad Sidiq"
+		click 2 "bani-ahmad-yusuf.php" "Bapak Ahmad Yusuf"
+		click 3 "bani-abdullah-rasyad.php" "Bapak Abdullah Rasyad"
+		click 5 "bani-mustakim.php" "Ibu Saridem"
+		click 6 "bani-muhammad.php" "Bapak Muhammad"
+	</div>
 </main>
 <?php include '../footer.php'; ?>

@@ -19,30 +19,28 @@ include 'header.php';
 	</section>
 	<section>
 		<h3>Garis Keturunan</h3>
-		<div class="mermaid" id="silsilah">flowchart TD;
-			A[Mbah Abdurrozaq] --> B[Ibu Mariyah];
-			click A "../index.php";
+		<div class="mermaid" id="silsilah">
+		flowchart LR;
+		A[Mbah Abdurrozaq] --> B[Ibu Mariyah];
+		B --> 1[Ibu Aisyah]; 
+		B --> 2[Bapak Imron]; 
+		B --> 3[Bapak Bahrudin]; 
+		B --> 4[Ibu Hamidah]; 
+		B --> 5[Ibu Romlah]; 
+		B --> 6[Ibu Jaenah]; 
+		B --> 7[Bapak Hamdani]; 
+		B --> 8[Bapak Hayan]
+
+		click A "../index.php";
+		click 1 "bani-sabilan.php";
+		click 2 "bani-imron.php";
+		click 3 "bani-bahrudin.php";
+		click 4 "bani-abu-nangim.php";
+		click 5 "bani-romlah.php";
+		click 6 "bani-jaenah.php";
+		click 7 "bani-hamdani.php";
+		click 8 "bani-hayan.php"
 		</div>
-	</section>
-	<section>
-		<h3>Silsilah Keluarga</h3>
-		<div class="mermaid">flowchart LR; 
-		A[Ibu Mariyah] --> |bersuami| B[Bapak Abdullah Umar]; 
-		B --> C[Ibu Aisyah]; 
-		B --> D[Bapak Imron]; 
-		B --> E[Bapak Bahrudin]; 
-		B --> F[Ibu Hamidah]; 
-		B --> G[Ibu Romlah]; 
-		B --> H[Ibu Jaenah]; 
-		B --> I[Bapak Hamdani]; 
-		B --> J[Bapak Hayan]
-		click C "bani-sabilan.php";
-		click E "bani-bahrudin.php";
-		click F "bani-abu-nangim.php";
-		click G "bani-romlah.php";
-		click H "bani-jaenah.php";
-		click I "bani-hamdani.php";
-		click J "bani-hayan.php"</div>
 	</section>
 </main>
 <?php include '../footer.php'; ?>
