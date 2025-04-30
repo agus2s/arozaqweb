@@ -11,15 +11,16 @@ include 'header.php';
         </ol>
     </section>
     <section>
-        <h2>Garis Keturunan</h2>
-        <div class="tree" id="silsilah">
-            <div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-            <div class="line"></div>
-            <div class="node"><a href="index.php">Ibu Mariyah</a></div>
-            <div class="line"></div>
-			<div class="node"><a href="bani-sabilan.php">Ibu Aisyah</a></div>
-            <div class="line"></div>			
-            <div class="node"><?=NAMA?></div>
+        <h3>Silsilah Keluarga <?= NAMA ?></h3>
+        <div class="mermaid" id="silsilah">
+        flowchart TD;
+        A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[Ibu Aisyah];
+        C --> D[<?= NAMA ?>] --> E[Bapak Arif];
+        F[Bapak Abdullah Umar] --> C;
+        G[Bapak Sabilan] --> D;
+        click A "../index.php"
+        click B "index.php"
+        click C "bani-sabilan.php"
         </div>
     </section>
 </main>

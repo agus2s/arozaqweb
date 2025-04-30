@@ -17,33 +17,27 @@ include 'header.php';
         </ol>
     </section>
     <section>
-        <h3>Garis Keturunan</h3>
-        <div class="mermaid" id="silsilah">
-            graph TD;
-                A[Mbah Abdurrozaq] --> B[Ibu Mariyah]
-                B --> C[<?=NAMA?>]
-        </div>
-    </section>
-    <section>
-    <h3>silsilah Keluarga</h3>
+        <h3>Silsilah Keluarga <?= NAMA ?></h3>
         <div class="mermaid" id="silsilah">
             graph LR;
-                A[<?=NAMA?>] -->|bersuami| B[Bapak Sabilan]
-                B --> C[Bapak Mujayir/Dahlan]
-                B --> D[Bapak Mukhlas]
-                B --> E[Bapak Muhajir]
-                B --> F[Bapak Mughofir]
-                B --> G[Bapak Kuat/Muhyidin]
-                B --> H[Bapak Mungadin]
-                B --> I[Bapak Tulus]
+                A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[<?=NAMA?>]
+                D[Bapak Abdullah Umar] --> C;
 
-                click C "bani-mujayir.php" "Bapak Mujayir/Dahlan"
-                click D "bani-mukhlas.php" "Bapak Mukhlas"
-                click E "bani-muhajir.php" "Bapak Muhajir"
-                click F "bani-mughofir.php" "Bapak Mughofir"
-                click G "bani-muhyidin.php" "Bapak Kuat/Muhyidin"
-                click H "bani-mungadin.php" "Bapak Mungadin"
-                click I "bani-tulus.php" "Bapak Tulus"
+                C --> 1[Bapak Mujayir/Dahlan]
+                C --> 2[Bapak Mukhlas]
+                C --> 3[Bapak Muhajir]
+                C --> 4[Bapak Mughofir]
+                C --> 5[Bapak Kuat/Muhyidin]
+                C --> 6[Bapak Mungadin]
+                C --> 7[Bapak Tulus]
+
+                click A "../index.php"
+                click B "index.php"
+                click 1 "bani-mujayir.php"
+                click 2 "bani-mukhlas.php"
+                click 5 "bani-muhyidin.php"
+                click 6 "bani-mungadin.php"
+                click 7 "bani-tulus.php"
         </div>
     </section>
 </main>

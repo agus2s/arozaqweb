@@ -19,8 +19,9 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-		<h3>Garis Keturunan</h3>
-		<div class="mermaid">flowchart LR
+		<h3>Silsilah Keluarga</h3>
+		<div class="mermaid" id="silsilah">
+		flowchart LR
 		A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
 		B --> 1[Bapak Ahmad Sidiq]
 		B --> 2[Bapak Ahmad Yusuf]

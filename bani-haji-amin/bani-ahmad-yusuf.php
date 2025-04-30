@@ -40,17 +40,16 @@ include 'header.php';
 
 		click A "../index.php";
 		click B "index.php";
-		click 1 "bani-lapi.php" "Bapak/Ibu Lapi";
-		click 2 "bani-sariyah.php" "Ibu Sariyah";
-		click 3 "bani-sarman.php" "Bapak Sarman";
-		click 4 "bani-sarmiyah.php" "Ibu Sarmiyah";
-		click 5 "bani-sarilah.php" "Ibu Sarilah";
-		click 6 "bani-salimun.php" "Bapak Salimun";
-		click 7 "bani-samingun.php" "Bapak Samingun";
-		click 8 "bani-ludiyah.php" "Ibu Ludiyah";
-		click 9 "bani-surat.php" "Bapak Surat";
-		click 10 "bani-ngantun.php" "Ibu Ngantun";
-		click 11 "#" "Ibu Ngaenah";
+		click 1 "bani-lapi.php";
+		click 2 "bani-sariyah.php";
+		click 3 "bani-sarman.php";
+		click 4 "bani-sarmiyah.php";
+		click 5 "bani-sarilah.php";
+		click 6 "bani-salimun.php";
+		click 7 "bani-samingun.php";
+		click 8 "bani-ludiyah.php";
+		click 9 "bani-surat.php";
+		click 10 "bani-ngantun.php";
 	</div>	
 	</section>
 </main>

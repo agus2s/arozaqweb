@@ -22,13 +22,14 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-		<h2>Garis Keturunan</h2>
-		<div class="tree" id="silsilah">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="index.php">Ibu Mariyah</a></div>
-			<div class="line"></div>
-			<div class="node"><?=NAMA?></div>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
+		<div class="mermaid" id="silsilah">
+		flowchart TD;
+		A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[<?= NAMA ?>];
+		D[Bapak Abdullah Umar] --> C;
+
+		click A "../index.php";
+		click B "index.php";
 		</div>
 	</section>
 </main>

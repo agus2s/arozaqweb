@@ -2,7 +2,7 @@
 include 'header.php';
 ?>
     <main>
-    <h1>Kenangan Abadi</h1>
+    <h1 class="row">Kenangan Abadi</h1>
         <section>
             <p>Mari kita mengenal dan mendoakan keluarga kita yang sudah meninggal.</p>
             <ol>

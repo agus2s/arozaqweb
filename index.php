@@ -4,7 +4,7 @@
     <section> 
         <h3>Silsilah Keluarga</h3> 
         <div class="mermaid"  id="silsilah">
-        flowchart TD
+        flowchart LR
             A[Mbah Abdurrozaq]
             A --> B[Bapak H. Amin]
             A --> C[Ibu Mariyah]

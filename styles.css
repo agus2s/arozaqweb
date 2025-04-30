@@ -123,12 +123,28 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
     font-size: 14px;       /* Ukuran teks */
     z-index: 1000;         /* Posisi di atas elemen lainnya */
-    max-width: 200px;      /* Batas lebar tooltip */
-  }  
+    max-width: 400px;      /* Batas lebar tooltip */
+} 
+
+.row {
+    width: 100%;
+    text-align: center;
+}
 
 #output {
     text-align: center;
     align-items: center;
+}
+
+@media screen and (min-width: 1281px) {
+    main {
+        display: flex;
+    }
+    section {
+        flex: 1; /* Agar semua section memiliki lebar yang sama */
+        padding: 0 20px 0 20px; /* Padding horizontal */
+        border: 1px solid #ccc; /* Tambahkan border */
+    }
 }
 
 @media screen and (max-width: 1280px) {

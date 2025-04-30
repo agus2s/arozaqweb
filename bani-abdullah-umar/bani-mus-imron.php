@@ -1,5 +1,5 @@
 <?php 
-const NAMA = 'Bapak/Ibu Mus';
+const NAMA = 'Ibu Mus';
 include 'header.php'; 
 ?>
 <main>
