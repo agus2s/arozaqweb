@@ -20,6 +20,9 @@ include 'header.php';
         C --> D[<?= NAMA ?>];
         E[Bapak Sabilan] --> D;
         F[Bapak Abdullah Umar] --> C;
+        D --> 1[Bapak Haris]
+        D --> 2[Bapak Labib]
+        D --> 3[Ibu Yuni]
 
         click A "../index.php";
         click B "index.php";

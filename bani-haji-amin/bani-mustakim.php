@@ -16,22 +16,15 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-		<h3>Garis Keturunan</h3>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
-			flowchart TD
-				A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
-				B --> C["Ibu Saridem"]
+			graph LR
+				A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"] --> C["Ibu Saridem"]
+        C --> 1["Ibu Mustanginah"] & 2["Ibu Tunjiyah"] & 3["Ibu Sujiah"]
+				C --> 4["Ibu Turiyah"] & 5["Ibu Solihah"]
+        
 				click A "../index.php"
 				click B "index.php"
-		</div>
-	</section>
-	<section>
-		<h3>Silsilah Keluarga</h3>
-		<div class="mermaid">
-			flowchart TD
-				A["Ibu Saridem"] --> |bersuami|G["Bapak Mustakim"]
-				G --> B["Ibu Mustanginah"] & C["Ibu Tunjiyah"] & D["Ibu Sujiah"]
-				G --> E["Ibu Turiyah"] & F["Ibu Solihah"]
 		</div>
 	</section>
 </main>

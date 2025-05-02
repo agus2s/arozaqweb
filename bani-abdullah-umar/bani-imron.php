@@ -11,7 +11,7 @@ include 'header.php';
 			<li><a href="bani-sangadah.php">Ibu Sangadah</a></li>
 			<li>Ibu Baryatun</li>
 			<li><a href="bani-mudzakir.php">Bapak Mudzakir</a></li>
-			<li><a href="bani-mus-imron.php">Bapak/Ibu Mus</a></li>
+			<li><a href="bani-mus-imron.php">Ibu Mus</a></li>
 			<li><a href="bani-sapiyah.php">Ibu Sapiyah</a></li>
 			<li><a href="bani-taslimah.php">Ibu Taslimah</a></li>
 			<li>Bapak Muhaimin</li>
