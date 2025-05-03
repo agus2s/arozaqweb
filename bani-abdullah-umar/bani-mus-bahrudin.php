@@ -8,8 +8,8 @@ include 'header.php';
         <h2><?=NAMA?></h2>
         <p><?=NAMA?> anak dari Bapak Bahrudin. <?=NAMA?> memiliki 2 orang anak, yaitu:</p>
         <ol>
-			<li>Ibu Ika</li>
-            <li>Bapak Fahad</li>
+          <li>Ibu Ika</li>
+          <li>Bapak Fahad</li>
         </ol>
     </section>
     <section>
