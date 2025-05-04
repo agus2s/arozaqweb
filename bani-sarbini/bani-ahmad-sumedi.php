@@ -1,9 +1,12 @@
-<?php include 'header.php'; ?>
+<?php 
+const NAMA = 'Bapak Ahmad Sumedi';
+include 'header.php'; 
+?>
 
 <main>
 	<section>
-		<h2>Bapak Ahmad Sumedi</h2>
-		<p>Bapak Ahmad Sumedi anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. Beliau memiliki 7 anak, yaitu:</p>
+		<h2><?= NAMA ?></h2>
+		<p><?= NAMA ?> anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. <?= NAMA ?> memiliki 7 anak, yaitu:</p>
 		<ol>
 			<li><a href="#">Ibu Marfungah</a></li>
 			<li><a href="#">Ibu Marsidah</a></li>
@@ -15,14 +18,12 @@
 		</ol>
 	</section>
 	<section>
-		<h2>Garis Keturunan</h2>
-		<div class="tree" id="silsilah">
-			
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="index.php">Ibu Sujiah/Marjiah</a></div>
-			<div class="line"></div>
-			<div class="node">Bapak Ahmad Sumedi</div>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
+		<div class="mermaid" id="silsilah">
+		graph TD
+		A[Mbah Abdurrozaq] --> B[Ibu Sujiah/Marjiah] --> C[<?= NAMA ?>]
+		click A "../index.php"
+		click B "index.php" "Bani Sarbini"
 		</div>
 	</section>
 </main>

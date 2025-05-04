@@ -1,5 +1,5 @@
 <?php 
-cosnt NAMA = 'Ibu Nafsatun';
+const NAMA = 'Ibu Nafsatun';
 include 'header.php'; 
 ?>
 	
@@ -16,14 +16,12 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-		<h2>Garis Keturunan</h2>
-		<div class="tree" id="silsilah">
-			
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="index.php">Ibu Sujiah/Marjiah</a></div>
-			<div class="line"></div>
-			<div class="node"><?=NAMA?></div>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
+		<div class="mermaid" id="silsilah">
+		graph TD
+		A[Mbah Abdurrozaq] --> B[Ibu Sujiah/Marjiah] --> C[<?= NAMA ?>]
+		click A "../index.php"
+		click B "index.php" "Bani Sarbini"
 		</div>
 	</section>
 </main>

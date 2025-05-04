@@ -14,7 +14,7 @@ include 'header.php';
         </ol>
     </section>
     <section>
-        <h3>silsilah Keluarga</h3>
+        <h3>silsilah Keluarga <?= NAMA ?></h3>
         <div class="mermaid" id="silsilah">flowchart TD;
             A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
         B["Bapak Hasan Ilyas"] --> |beristri|C["Ibu Rochyati"];

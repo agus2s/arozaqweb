@@ -12,10 +12,10 @@
 		</ol>
 	</section>
 	<section id="silsilah">
-		<h3>Silsilah Keluarga</h3>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid">flowchart TD;
 		A["Mbah Abdurrozaq"] --> B["Ibu Satibah"];
-		B --> |bersuami|C["Bapak Ahmad Abdullah Sumeri"];
+		B --> |bersuami|C["Bapak Abdullah Sumeri"];
 		C --> D["Ibu Hasanah"];
 		C --> E["Bapak Mahali"];
 		C --> F["Ibu Saripah"];

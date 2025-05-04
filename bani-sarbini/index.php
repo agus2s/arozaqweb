@@ -17,28 +17,23 @@
 		</ol>
 	</section>
 	<section>
-		<h3>Garis Keturunan</h3>
-		<div class="mermaid" id="silsilah">flowchart TD;
-			A["Mbah Abdurrozaq"] --> B["Ibu Sujiah/Marjiah"];
-			click A "../index.php";
-		</div>
-	</section>
-	<section>
-		<h3>Silsilah Keluarga</h3>
-		<div class="mermaid">flowchart LR;
-		A["Ibu Sujiah/Marjiah"] --> |bersuami| B["Bapak Sarbini"];
-		B --> C["Ibu \'Ariyah"];
-		B --> D["Ibu Nafsatun"];
-		B --> E["Ibu \'Afinah"];
-		B --> F["Bapak Ahmad Sumedi"];
-		B --> G["Ibu Alfiyah"];
-		B --> H["Bapak Abdul Qohar"];
-		B --> I["Ibu Mukronah"];
-		click C "bani-dul-ghoni.php";
-		click D "bani-ansor.php";
-		click E "bani-afinah.php";
-		click F "bani-ahmad-sumedi.php";
-		click H "bani-abdul-qohar.php"</div>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
+		<div class="mermaid" id="silsilah">
+    flowchart LR;
+		A["Mbah Abdurrozaq"] --> B["Ibu Sujiah/Marjiah"];
+		B --> 1["Ibu \'Ariyah"];
+		B --> 2["Ibu Nafsatun"];
+		B --> 3["Ibu \'Afinah"];
+		B --> 4["Bapak Ahmad Sumedi"];
+		B --> 5["Ibu Alfiyah"];
+		B --> 6["Bapak Abdul Qohar"];
+		B --> 7["Ibu Mukronah"];
+    click A "../index.php";
+		click 1 "bani-dul-ghoni.php";
+		click 2 "bani-ansor.php";
+		click 3 "bani-afinah.php";
+		click 4 "bani-ahmad-sumedi.php";
+		click 6 "bani-abdul-qohar.php"</div>
 	</section>
 </main>
 <?php include '../footer.php'; ?>

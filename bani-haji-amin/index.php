@@ -19,7 +19,7 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-		<h3>Silsilah Keluarga</h3>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
 		flowchart LR
 		A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
