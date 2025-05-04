@@ -7,19 +7,19 @@ include 'header.php';
 		<h2><?=NAMA?></h2>
 		<p><?=NAMA?> anak dari Bapak Ahmad Yusuf. <?=NAMA?> memiliki 1 anak:</p>
 		<ol>			
-			<li>Bapak Alfiyan</li>   
+			<li>Alfiyan</li>   
 		</ol>
 	</section>
 	<section>
-		<h2>Garis Keturunan</h2>
-		<div class="tree" id="silsilah">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="./index.php">Bapak H. Amin</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="./bani-ahmad-yusuf.php">Bapak Ahmad Yusuf</a></div>
-			<div class="line"></div>                
-			<div class="node"><?=NAMA?></div>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
+		<div class="mermaid" id="silsilah">
+			graph TD
+      A[Mbah Abdurrozaq] --> B[Bapak H. Amin]
+      B --> C[Bapak Ahmad Yusuf] --> D[<?=NAMA?>] --> Alfiyan
+      
+      click A "../index.php"
+			click B "index.php"
+			click C "bani-ahmad-yusuf.php"			
 		</div>
 	</section>
 </main>

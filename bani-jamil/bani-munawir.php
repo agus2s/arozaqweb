@@ -17,14 +17,14 @@ include 'header.php';
     </ol>
   </section>
   <section>
-  <h3>Silsilah Keluarga <?= NAMA ?></h3>
-  <div class="mermaid" id="silsilah">
-    graph TD
-    A[Mbah Abdurrozaq] --> B[Bapak Jamil] --> C[<?= NAMA ?>]
-    click A "../index.php"
-    click B "index.php"
-  </div>
-</section>
+    <h3>Silsilah Keluarga <?= NAMA ?></h3>
+    <div class="mermaid" id="silsilah">
+      graph TD
+      A[Mbah Abdurrozaq] --> B[Bapak Jamil] --> C[<?= NAMA ?>]
+      click A "../index.php"
+      click B "index.php"
+    </div>
+  </section>
 </main>
 
 <?php include '../footer.php'; ?>
