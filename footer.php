@@ -9,7 +9,7 @@
     });
 </script>
 <footer>
-	<p>&copy; 2025 Bani Abdurrozaq</p>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
 </footer>
 
 </body>
