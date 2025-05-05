@@ -3,6 +3,9 @@
     mermaid.initialize({ 
         startOnLoad: true,
         theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Arial'
+		}
     });
 </script>
 <footer>

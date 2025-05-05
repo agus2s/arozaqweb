@@ -14,15 +14,15 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-		<h2>Garis Keturunan</h2>
-		<div class="tree" id="silsilah">
-			<div class="node"><a href="../index.php">Bapak K.H. Abdurrozaq</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="./index.php">Bapak H. Amin</a></div>
-			<div class="line"></div>
-			<div class="node"><a href="./bani-abdullah-rasyad.php">Bapak Abdullah Rasyad</a></div>
-			<div class="line"></div>                
-			<div class="node"><?=NAMA?></div>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
+		<div class="mermaid" id="silsilah">
+			graph TD
+			A[Mbah Abdurrozaq] --> B[Bapak H. Amin]
+			B --> C[Bapak Dullah Rasyad] --> D[<?=NAMA?>]
+      
+			click A "../index.php"
+			click B "index.php"
+			click C "bani-abdullah-rasyad.php"			
 		</div>
 	</section>
 </main>

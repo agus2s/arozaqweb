@@ -14,10 +14,10 @@ include 'header.php';
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
 			graph TD
-      A[Mbah Abdurrozaq] --> B[Bapak H. Amin]
-      B --> C[Bapak Ahmad Yusuf] --> D[<?=NAMA?>] --> Santi
+			A[Mbah Abdurrozaq] --> B[Bapak H. Amin]
+			B --> C[Bapak Ahmad Yusuf] --> D[<?=NAMA?>] --> Santi
       
-      click A "../index.php"
+			click A "../index.php"
 			click B "index.php"
 			click C "bani-ahmad-yusuf.php"			
 		</div>

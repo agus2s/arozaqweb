@@ -18,7 +18,7 @@ include 'header.php';
 	<section>
 		<h3>Garis Keturunan</h3>
 		<div class="mermaid" id="silsilah">flowchart LR
-			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"] --> C["Bapak Abdullah Rasyad"]
+			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"] --> C["Bapak Dullah Rasyad"]
 			C --> 1["Ibu Kasriyah"]
 			C --> 2["Ibu Cublek Tasringah"]
 			C --> 3["Bapak Nasihin"]

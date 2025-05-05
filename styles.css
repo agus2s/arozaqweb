@@ -1,37 +1,48 @@
+/* Gaya dasar untuk body halaman */
 body {
-	background-color: LightGray;
-    font-family: 'Open Sans', sans-serif;
+	background-color: LightGray; /* Warna latar belakang abu-abu muda */
+    font-family: 'Open Sans', sans-serif; /* Gunakan font Open Sans */
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* Susunan fleksibel */
+    flex-direction: column; /* Tata letak vertikal */
+    align-items: center; /* Pusatkan elemen secara horizontal */
 }
+
+/* Gaya umum untuk header */
 header {
     color: white;
     text-align: center;
     width: 100%;
     margin: 0;
     padding: 0;
-	border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0; /* Tidak ada lengkungan sudut */
 }
+
+/* Gaya judul dalam header */
 header h1 {
-    background-color: #228B22; 
+    background-color: #228B22; /* Hijau tua */
     margin: 0;
     padding: 20px;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);	
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Bayangan teks */
 }
+
+/* Gaya link dalam h1 */
 header h1 a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Hilangkan garis bawah */
 }
+
+/* Navigasi horizontal */
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #333; /* Abu-abu gelap */
     margin: 0;
     padding: 0;
 }
+
+/* Link navigasi */
 nav a {
     color: white;
     padding: 14px 20px;
@@ -39,10 +50,14 @@ nav a {
     text-align: center;
     margin: 0 10px;
 }
+
+/* Efek hover pada navigasi */
 nav a:hover {
     background-color: #ddd;
     color: black;
 }
+
+/* Gaya utama halaman */
 main {
     background-color: white;
 	margin: 0;
@@ -54,58 +69,51 @@ main {
     width: 100%;
 	border-radius: 0 0 0 0;
 }
+
+/* Gaya footer */
 footer {
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
     text-align: center;
     width: 100%;
     margin: 0;
     font-size: small;
 }
+
+/* Atur jarak baris pada list */
 ul, ol {
     line-height: 1.6;
 }
+
+/* Atur lebar dan padding untuk setiap section */
 section {
     width: 100%;
     padding: 20px;
 }
-a:link{
+
+/* Hilangkan garis bawah pada semua link default */
+a:link {
     text-decoration: none;
 }
+
+/* Tampilkan garis bawah saat hover */
 a:hover {
     text-decoration: underline;
 }
 
+/* Header dengan latar belakang gambar */
 .header-section {
-    background-image: url('background.jpg'); /* Masukkan path gambar Anda */
-    background-size: cover; /* Agar gambar menyesuaikan ukuran header */
-    background-position: center; /* Menjaga gambar tetap di tengah */
-    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
-    height: 300px; /* Tentukan tinggi header */
-    color: white; /* Sesuaikan warna teks agar terbaca dengan jelas */
+    background-image: url('background.jpg'); /* Ganti dengan path gambar */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.tree {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.node {
-    border: 2px solid #6c63ff;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #e8eaf6;
-    width: fit-content;
-}
-.line {
-    height: 30px;
-    width: 2px;
-    background-color: #6c63ff;
-}
-
+/* Kontainer untuk diagram Mermaid */
 .mermaid {
     width: 100%;
     display: flex;
@@ -114,42 +122,55 @@ a:hover {
     margin: 0 auto;
 }
 
+.mermaid a:link{
+	text-decoration: none;
+	color: #000;
+}
+
+.mermaid a:hover{
+	text-decoration: underline;
+}
+/* Tooltip untuk Mermaid diagram */
 .mermaidTooltip {
     position: absolute;
-    background-color: #333; /* Warna latar belakang */
-    color: #fff;           /* Warna teks */
-    padding: 10px;         /* Jarak dalam tooltip */
-    border-radius: 5px;    /* Sudut membulat */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
-    font-size: 14px;       /* Ukuran teks */
-    z-index: 1000;         /* Posisi di atas elemen lainnya */
-    max-width: 400px;      /* Batas lebar tooltip */
-} 
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    z-index: 1000;
+    max-width: 400px;
+}
 
+/* Baris kontainer umum */
 .row {
     width: 100%;
     text-align: center;
 }
 
+/* Tampilan output di tengah */
 #output {
     text-align: center;
     align-items: center;
 }
 
+/* Gaya khusus untuk layar besar (min 1281px) */
 @media screen and (min-width: 1281px) {
     main {
         display: flex;
     }
     section {
-        flex: 1; /* Agar semua section memiliki lebar yang sama */
-        padding: 0 20px 0 20px; /* Padding horizontal */
-        border: 1px solid #ccc; /* Tambahkan border */
+        flex: 1; /* Bagi ruang secara merata */
+        padding: 0 20px;
+        border: 1px solid #ccc;
     }
 }
 
+/* Gaya untuk layar sedang (max 1280px) */
 @media screen and (max-width: 1280px) {
     body {
-        background-color: #f0f0f0; /* Pilihan warna latar belakang yang lebih lembut untuk resolusi ini */
+        background-color: #f0f0f0; /* Warna latar alternatif */
     }
 
     header {
@@ -158,82 +179,79 @@ a:hover {
     }
 
     nav a {
-        padding: 10px 15px; /* Sesuaikan ukuran padding untuk navigasi */
+        padding: 10px 15px;
     }
 
     main {
         max-width: 100%;
-        flex-direction: column; /* Ubah tata letak menjadi kolom untuk layar lebih kecil */
+        flex-direction: column; /* Tata letak jadi vertikal */
     }
-	
+
 	main h1 {
 		text-align: center;
 	}
-	
+
 	section {
 		padding: 10px;
 	}
 
     footer {
         padding: 10px;
-        font-size: smaller; /* Ubah ukuran font di footer */
+        font-size: smaller;
     }
 
     .header-section {
-        height: 200px; /* Kurangi tinggi header untuk resolusi ini */
+        height: 200px;
         background-size: cover;
     }
-
-    .tree .node {
-        margin: 5px;
-        padding: 5px; /* Sesuaikan ukuran node */
-        font-size: small; /* Kurangi ukuran font untuk teks */
-    }
 }
-  
+
+/* Gaya untuk layar kecil (max 768px) */
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 24px; /* Ubah ukuran font judul untuk layar kecil */
+        font-size: 24px;
     }
 
     nav a {
-        padding: 8px 12px; /* Sesuaikan ukuran padding untuk navigasi */
+        padding: 8px 12px;
     }
 
     main {
-        padding: 10px; /* Kurangi padding di dalam main */
+        padding: 10px;
     }
 
     footer {
-        padding: 5px; /* Kurangi padding di footer */
-        font-size: smaller; /* Ubah ukuran font di footer */
+        padding: 5px;
+        font-size: smaller;
     }
 
     .header-section {
-        height: 150px; /* Kurangi tinggi header untuk resolusi ini */
+        height: 150px;
         background-size: cover;
     }
 }
+
+/* Gaya untuk layar sangat kecil (max 480px) */
 @media screen and (max-width: 480px) {
     header h1 {
-        font-size: 20px; /* Ubah ukuran font judul untuk layar kecil */
+        font-size: 20px;
     }
 
     nav a {
-        padding: 5px 10px; /* Sesuaikan ukuran padding untuk navigasi */
+        padding: 5px 10px;
     }
 
     main {
-        padding: 5px; /* Kurangi padding di dalam main */
+        padding: 5px;
     }
 
     footer {
-        padding: 5px; /* Kurangi padding di footer */
-        font-size: x-small; /* Ubah ukuran font di footer */
+        padding: 5px;
+        font-size: x-small;
     }
 
     .header-section {
-        height: 120px; /* Kurangi tinggi header untuk resolusi ini */
+        height: 120px;
         background-size: cover;
     }
 }
