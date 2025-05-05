@@ -4,7 +4,7 @@
         startOnLoad: true,
         theme: "neutral",
 		themeVariables: {
-			fontFamily: 'Arial'
+			fontFamily: 'sans-serif'
 		}
     });
 </script>

@@ -1,7 +1,7 @@
 /* Gaya dasar untuk body halaman */
 body {
 	background-color: LightGray; /* Warna latar belakang abu-abu muda */
-    font-family: 'Open Sans', sans-serif; /* Gunakan font Open Sans */
+    font-family: 'Inter', sans-serif; /* Gunakan font Open Sans */
     margin: 0;
     padding: 0;
     display: flex; /* Susunan fleksibel */
