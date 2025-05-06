@@ -1,9 +1,5 @@
 <?php
-if (defined('NAMA')) {
-	$title = NAMA;
-} else {
-	$title = 'Bapak Muhammad Jamil beristri Ibu Maemunah';
-}
+$title = defined('NAMA') ? NAMA : 'Bapak Muhammad Jamil beristri Ibu Maemunah';
 ?>
 <!DOCTYPE html>
 <html lang="id">

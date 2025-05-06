@@ -36,11 +36,11 @@ include 'header.php';
 		click A "../index.php"
 		click B "index.php"
 		click A "../index.php"
-		click 1 "bani-ahmad-sidiq.php" "Bapak Ahmad Sidiq"
-		click 2 "bani-ahmad-yusuf.php" "Bapak Ahmad Yusuf"
-		click 3 "bani-abdullah-rasyad.php" "Bapak Abdullah Rasyad"
-		click 5 "bani-mustakim.php" "Ibu Saridem"
-		click 6 "bani-muhammad.php" "Bapak Muhammad"
+		click 1 "bani-ahmad-sidiq.php"
+		click 2 "bani-ahmad-yusuf.php"
+		click 3 "bani-abdullah-rasyad.php"
+		click 5 "bani-mustakim.php" "Bani Mustakim"
+		click 6 "bani-muhammad.php"
 	</div>
 </main>
 <?php include '../footer.php'; ?>

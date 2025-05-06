@@ -1,16 +1,13 @@
 <?php
-if (defined('NAMA')) {
-	$title = NAMA;
-} else {
-	$title = 'Ibu Sujiah/Marjiah bersuami Bapak Sarbini';
-}
+$title = defined('NAMA') ? NAMA : 'Ibu Sujiah/Marjiah bersuami Bapak Sarbini';
 ?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?=$title?></title>
+<title><?= $title ?></title>
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>

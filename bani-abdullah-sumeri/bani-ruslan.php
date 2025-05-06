@@ -19,11 +19,11 @@ include 'header.php';
 	<section>
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
-      flowchart TD;
-      A["Mbah Abdurrozaq"] --> B["Ibu Satibah"];
-      B --> C[<?= NAMA ?>];
-      click A "../index.php";
-      click B "index.php" "Bani Abdullah Sumeri"
+    	flowchart TD;
+    	A["Mbah Abdurrozaq"] --> B["Ibu Satibah"];
+    	B --> C[<?= NAMA ?>];
+    	click A "../index.php";
+    	click B "index.php" "Bani Abdullah Sumeri"
     </div>
 	</section>
 </main>

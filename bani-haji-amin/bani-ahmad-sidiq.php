@@ -12,7 +12,7 @@ include 'header.php';
 		</ol>
 	</section>
 	<section id="silsilah">
-		<h3>Silsilah Keluarga</h3>
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid">flowchart TD;
 		A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"];
 		B["Bapak H. Amin"] --> C["Bapak Ahmad Sidiq"];
