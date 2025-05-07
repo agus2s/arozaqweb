@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?> 
 <main> 
-    <h1 class="row">Simbah K.H. Abdurrozaq</h1>
     <section>
+		<h2>Simbah K.H. Abdurrozaq</h2>
 		<p>Simbah K.H. Abdurrozaq adalah seorang alim pendiri masjid Syamsul Huda Desa Ciklapa Kecamatan Kedungreja Kabupaten Cilacap. Beliau dimakamkan di pemakaman Parijewot Desa Tegalsari Kecamatan Sidareja. Beliau memiliki 6 orang anak:</p>
 		<ol>
 			<li><a href="bani-haji-amin/index.php">Bapak H. Amin beristri Ibu Satariyah</a></li>
