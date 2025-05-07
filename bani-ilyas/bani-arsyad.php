@@ -12,13 +12,13 @@ include 'header.php';
 		</ol>
 	</section>
 	<section>
-			<h3>Silsilah Keluarga <?= NAMA ?></h3>
-			<div class="mermaid" id="silsilah">
+		<h3>Silsilah Keluarga <?= NAMA ?></h3>
+		<div class="mermaid" id="silsilah">
 			graph TD
-      A[Mbah Abdurrozaq] --> B[Bapak H. Ilyas]
-      B --> C[<?= NAMA ?>]
-      click A "../index.php"
-      click B "index.php"
+			A[Mbah Abdurrozaq] --> B[Bapak H. Ilyas] --> C[<?= NAMA ?>]
+    
+			click A "../index.php"
+    		click B "index.php"
 		</div>
 	</section>
 </main>

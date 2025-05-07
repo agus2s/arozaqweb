@@ -15,16 +15,18 @@ include 'header.php';
     </section>
     <section>
         <h3>silsilah Keluarga <?= NAMA ?></h3>
-        <div class="mermaid" id="silsilah">flowchart TD;
+        <div class="mermaid" id="silsilah">
+            flowchart TD;
             A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
-        B["Bapak Hasan Ilyas"] --> |beristri|C["Ibu Rochyati"];
-        C --> D["Ibu Umi Latifah"];
-        C --> E["Ibu Hindun Asfiyah"];
-        C --> F["Ibu Malehatun"];
-        click A "../index.php";
-        click D "bani-agus.php";
-        click E "bani-nurman.php";
-        click F "bani-arsyad.php";</div>
+            B["Bapak Hasan Ilyas"] --> |beristri|C["Ibu Rochyati"];
+            C --> D["Ibu Umi Latifah"];
+            C --> E["Ibu Hindun Asfiyah"];
+            C --> F["Ibu Malehatun"];
+            click A "../index.php";
+            click D "bani-agus.php";
+            click E "bani-nurman.php";
+            click F "bani-arsyad.php";
+        </div>
     </section>
 </main>
 <?php include '../footer.php'; ?>
