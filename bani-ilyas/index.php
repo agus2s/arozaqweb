@@ -14,16 +14,19 @@ include 'header.php';
         </ol>
     </section>
     <section>
-        <h3>Silsilah Keluarga <?= NAMA ?></h3>
+        <h3>silsilah Keluarga <?= NAMA ?></h3>
         <div class="mermaid" id="silsilah">
-			flowchart TD;
+            flowchart TD;
             A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
-			B["Bapak Hasan Ilyas"] --> |beristri|C["Ibu Rochyati"];
-			C --> D["Ibu Umi Latifah"] & E["Ibu Hindun Asfiyah"] & F["Ibu Malehatun"];
-        click A "../index.php";
-        click D "bani-agus.php";
-        click E "bani-nurman.php";
-        click F "bani-arsyad.php";</div>
+            B["Bapak Hasan Ilyas"] --> |beristri|C["Ibu Rochyati"];
+            C --> D["Ibu Umi Latifah"];
+            C --> E["Ibu Hindun Asfiyah"];
+            C --> F["Ibu Malehatun"];
+            click A "../index.php";
+            click D "bani-agus.php";
+            click E "bani-nurman.php";
+            click F "bani-arsyad.php";
+        </div>
     </section>
 </main>
 <?php include '../footer.php'; ?>
