@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ganti dengan nama file CSS Anda -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Situs Kami</h1>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Tentang</a>
+            <a href="#">Layanan</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Seksi 1</h2>
+            <p>Ini adalah konten dari seksi pertama. Anda bisa menambahkan teks, gambar, atau elemen lain di sini.</p>
+        </section>
+        <section>
+            <h2>Silsilah</h2>
+            <div class="mermaid" id="silsilah">
+                graph TD;
+                A[Judul] --> B[Sub Judul 1]
+                A --> C[Sub Judul 2]
+                B --> D[Sub Judul 1.1]
+                B --> E[Sub Judul 1.2]
+                C --> F[Sub Judul 2.1]
+                C --> G[Sub Judul 2.2]
+                D --> H[Sub Judul 1.1.1]
+
+            </div>
+        </section>
+    </main>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ 
+            startOnLoad: true,
+            fontFamily: 'Inter, sans-serif',
+            theme: 'neutral'
+        });
+	</script>
+    <footer>
+        <p>&copy; 2025 Situs Contoh. Semua hak dilindungi undang-undang.</p>
+    </footer>
+
+</body>
+</html>
