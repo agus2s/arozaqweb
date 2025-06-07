@@ -2,6 +2,7 @@
 const NAMA = 'Bapak H. Amin';
 include 'header.php'; 
 ?>
+
 <main>
 	<section>
 		<h2><?=NAMA?> beristri Ibu Satariyah</h2>
@@ -21,26 +22,27 @@ include 'header.php';
 	<section>
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
-		flowchart LR
-		A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
-		B --> 1[Bapak Ahmad Sidiq]
-		B --> 2[Bapak Ahmad Yusuf]
-		B --> 3[Bapak Abdullah Rasyad]
-		B --> 4[Bapak Mustagin]
-		B --> 5[Ibu Saridem]
-		B --> 6[Bapak Muhammad]
-		B --> 7[Bapak/Ibu Tumbu]
-		B --> 8[Bapak Slamet]
-		B --> 9[Bapak Kahar]
+			flowchart LR
+			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"]
+			B --> 1[Bapak Ahmad Sidiq]
+			B --> 2[Bapak Ahmad Yusuf]
+			B --> 3[Bapak Abdullah Rasyad]
+			B --> 4[Bapak Mustagin]
+			B --> 5[Ibu Saridem]
+			B --> 6[Bapak Muhammad]
+			B --> 7[Bapak/Ibu Tumbu]
+			B --> 8[Bapak Slamet]
+			B --> 9[Bapak Kahar]
 
-		click A "../index.php"
-		click B "index.php"
-		click A "../index.php"
-		click 1 "bani-ahmad-sidiq.php"
-		click 2 "bani-ahmad-yusuf.php"
-		click 3 "bani-abdullah-rasyad.php"
-		click 5 "bani-mustakim.php" "Bani Mustakim"
-		click 6 "bani-muhammad.php"
-	</div>
+			click A "../index.php"
+			click B "index.php"
+			click A "../index.php"
+			click 1 "bani-ahmad-sidiq.php"
+			click 2 "bani-ahmad-yusuf.php"
+			click 3 "bani-abdullah-rasyad.php"
+			click 5 "bani-mustakim.php" "Bani Mustakim"
+			click 6 "bani-muhammad.php"
+		</div>
+	</section>
 </main>
 <?php include '../footer.php'; ?>
