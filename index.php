@@ -11,6 +11,12 @@
 			<li><a href="bani-ilyas/index.php">Bapak Hasan Ilyas beristri Ibu Rochyati</a></li>
 			<li><a href="bani-abdullah-sumeri/index.php">Ibu Satibah bersuami Bapak Ahmad Abdullah Sumeri</a></li>
 		</ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Mbah Dullah Jayadilaga sekalian</li>
+			<li>Mbah Dullah Jayadipura sekalian</li>
+			<li>Mbah Abdurrozaq sekalian</li>
+		</ol>
     </section>
     <section> 
         <h3>Silsilah Keluarga</h3> 

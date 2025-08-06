@@ -1,18 +1,18 @@
 <?php 
-const NAMA = "'Afinah";
+const NAMA = "Ibu 'Afinah";
 include 'header.php'; 
 ?>
 
 <main>
 	<section>
-		<h2>Ibu 'Afinah</h2>
-		<p>Ibu 'Afinah anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. Beliau memiliki 5 anak, yaitu:</p>
+		<h2><?= NAMA ?></h2>
+		<p><?= NAMA ?> anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. Beliau memiliki 5 anak, yaitu:</p>
 		<ol>
-			<li><a href="#">Bapak Hasim</a></li>
-			<li><a href="#">Bapak Teblo</a></li>
-			<li><a href="#">Ibu Toifah</a></li>
-			<li><a href="#">Bapak/Ibu Cendek</a></li>
-			<li><a href="#">Bapak Fakhir</a></li>
+			<li><a href="bani-hasyim.php">Bapak Hasyim</a></li>
+			<li><a href="bani-teblo.php">Bapak/Ibu Teblo</a></li>
+			<li><a href="bani-toifah.php">Ibu Toifah</a></li>
+			<li><a href="bani-cendek.php">Ibu Khusnul</a></li>
+			<li>Bapak Fakhir</li>
 		</ol>
 	</section>
 	<section>

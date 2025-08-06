@@ -8,13 +8,13 @@ include 'header.php';
 		<h2><?= NAMA ?></h2>
 		<p><?= NAMA ?> anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. <?= NAMA ?> memiliki 7 anak, yaitu:</p>
 		<ol>
-			<li><a href="#">Ibu Marfungah</a></li>
-			<li><a href="#">Ibu Marsidah</a></li>
-			<li><a href="#">Ibu Maulidah</a></li>
-			<li><a href="#">Ibu Marhamah</a></li>
-			<li><a href="#">Ibu Linatul</a></li>
-			<li><a href="#">Ibu Halimah</a></li>
-			<li><a href="#">Bapak/Ibu Milhan</a></li>
+			<li><a href="bani-marfungah.php">Ibu Marfungah</a></li>
+			<li><a href="bani-marsidah.php">Ibu Marsidah</a></li>
+			<li><a href="bani-maulidah.php">Ibu Maulidah</a></li>
+			<li><a href="bani-marhamah.php">Ibu Marhamah</a></li>
+			<li><a href="bani-linatul.php">Ibu Linatul</a></li>
+			<li>Halimah</li>
+			<li>Milhan</li>
 		</ol>
 	</section>
 	<section>

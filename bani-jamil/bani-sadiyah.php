@@ -7,7 +7,7 @@ include 'header.php';
 		<h2><?= NAMA ?></h2>
 		<p><?= NAMA ?> anak dari Bapak Muhammad Jamil dan Ibu Maemunah. <?= NAMA ?> memiliki 3 orang anak, yaitu:</p>
 		<ol>
-			<li><a href="#">Bapak Marsudi</a></li>
+			<li><a href="bani-marsudi.php">Bapak Marsudi</a></li>
 			<li><a href="#">Bapak Syawal</a></li>
 			<li><a href="#">Ibu Towiyah</a></li>
 		</ol>

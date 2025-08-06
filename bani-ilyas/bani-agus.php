@@ -11,6 +11,15 @@ include 'header.php';
 			<li>Arsyila Yumna Fauziyah</li>
 			<li>Asyifa Hanna Fauziyah</li>
 		</ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Bapak H. Ilyas bin Abdurrozaq sekalian</li>
+			<li>Ibu Rochyati binti Hasan Muhanan</li>
+			<li>Mbah Hasan Muhanan sekalian</li>
+			<li>Mbah Sutarno bin Muryadi</li>
+			<li>Mbah Ngadisem binti Sanwarid</li>
+			<li>Mbah Partotinoyo sekalian</li>
+		</ol>
   </section>
   <section>
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>

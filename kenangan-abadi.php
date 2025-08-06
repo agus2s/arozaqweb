@@ -6,8 +6,8 @@ include 'header.php';
         <section>
             <p>Mari kita mengenal dan mendoakan keluarga kita yang sudah meninggal.</p>
             <ol>
-                <li>Mbah Daulah Jayadilaga</li>
-				<li>Mbah Daulah Jayadipura</li>
+                <li>Mbah Dullah Jayadilaga</li>
+				<li>Mbah Dullah Jayadipura</li>
 				<li>Mbah Abdurrozaq</li>
             </ol>
         </section>

@@ -12,6 +12,12 @@ include 'header.php';
             <li><a href="bani-nurman.php">Ibu Hindun Asfiyah bersuami Bapak Nurman Mulyana</a></li>
             <li><a href="bani-arsyad.php">Ibu Malehatun bersuami Bapak Arsyad Anwar</a></li>
         </ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Bapak H. Ilyas bin Abdurrozaq sekalian</li>
+			<li>Ibu Rochyati binti Hasan Muhanan</li>
+			<li>Mbah Hasan Muhanan sekalian</li>
+		</ol>
     </section>
     <section>
         <h3>Silsilah Keluarga <?= NAMA ?></h3>

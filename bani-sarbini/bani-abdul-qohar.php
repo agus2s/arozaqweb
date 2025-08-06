@@ -13,6 +13,14 @@ include 'header.php';
 			<li><a href="bani-toifur.php">Ibu Kharisatun Uwliyah bersuami Bapak Thoifur</a></li>
 			<li><a href="bani-nuha.php">Bapak Ulun Nuha beristri Ibu Iin Kurniasih</a></li>
 		</ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Mbah Abdul Hamid Kartanegara sekalian</li>
+			<li>Mbah Asngari sekalian</li>
+			<li>Mbah Murjana sekalian</li>
+			<li>Mbah Sarbini sekalian</li>
+			<li>Bapak Abdul Qohar bin Abdurrozaq</li>
+		</ol>
 	</section>
 	<section>
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>

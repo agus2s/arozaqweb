@@ -12,7 +12,7 @@ include 'header.php';
 			<li><a href="bani-sodik.php">Bapak Sodik</a></li>
 			<li><a href="bani-basyuni.php">Bapak Basyuni</a></li>
 			<li><a href="bani-mauludin.php">Bapak Ahmad Mauludin</a></li>
-			<li><a href="bani-rohmah.php">Ibu Rohmah</a></li>
+			<li><a href="bani-rohmah.php">Ibu Siti Rohmah</a></li>
 		</ol>
 	</section>
 	<section>

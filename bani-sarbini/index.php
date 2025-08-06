@@ -15,6 +15,13 @@
 			<li><a href="bani-abdul-qohar.php">Bapak Abdul Qohar beristri Ibu Machamah</a></li>
 			<li><a href="#">Ibu Mukronah</a></li>
 		</ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Mbah Abdul Hamid Kartanegara sekalian</li>
+			<li>Mbah Asngari sekalian</li>
+			<li>Mbah Murjana sekalian</li>
+			<li>Mbah Sarbini sekalian</li>
+		</ol>
 	</section>
 	<section>
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>
