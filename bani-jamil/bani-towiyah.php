@@ -1,18 +1,16 @@
 <?php 
-const NAMA = "Bapak Marsudi";
+const NAMA = "Ibu Towiyah";
 include 'header.php'; 
 ?>
 <main>
 	<section>
 		<h2><?= NAMA ?></h2>
-		<p><?= NAMA ?> anak dari Ibu Sa'diyah. <?= NAMA ?> memiliki 6 orang anak, yaitu:</p>
+		<p><?= NAMA ?> anak dari Ibu Sa'diyah. <?= NAMA ?> memiliki 4 orang anak, yaitu:</p>
 		<ol>
-			<li>Nurul Hikmah</li>
-			<li>Miftahudin</li>
-			<li>Mamad</li>
-			<li>Ulum Maesaroh</li>
-			<li>Yusuf</li>
-			<li>Yunus</li>
+			<li>Nikmah</li>
+			<li>Hakim</li>
+			<li>Elul</li>
+			<li>Zakiyah</li>
 		</ol>
 	</section>
 	  <section>

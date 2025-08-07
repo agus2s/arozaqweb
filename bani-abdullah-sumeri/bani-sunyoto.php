@@ -1,25 +1,26 @@
 <?php 
-const NAMA = 'Ibu Saripah';
+const NAMA = 'Bapak H. Lukman';
 include 'header.php'; 
 ?>
 
 <main>
 	<section>
 		<h2><?=NAMA?></h2>
-		<p><?=NAMA?> anak dari Ibu Satibah dan Bapak Ahmad Abdullah Sumeri. <?=NAMA?> memiliki 2 orang anak:</p>
+		<p><?=NAMA?> anak dari Ibu Saripah. <?=NAMA?> memiliki 2 orang anak:</p>
 		<ol>
-			<li><a href="bani-lukman.php">Bapak H. Lukman</a></li>
-			<li><a href="bani-sunyoto.php">Bapak Sunyoto</a></li>
+			<li>Gilang</li>
+			<li>Ratri</li>
 		</ol>
 	</section>
 	<section>
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
       flowchart TD;
-      A["Mbah Abdurrozaq"] --> B["Ibu Satibah"];
-      B --> C[<?= NAMA ?>];
+      A["Mbah Abdurrozaq"] --> B["Ibu Satibah"] --> C[Ibu Saripah];
+      C --> D[<?= NAMA ?>];
       click A "../index.php";
       click B "index.php" "Bani Abdullah Sumeri"
+	  click C "bani-saripah.php"
     </div>
 	</section>
 </main>

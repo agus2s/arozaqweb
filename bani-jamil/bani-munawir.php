@@ -8,12 +8,12 @@ include 'header.php';
     <h1><?=NAMA?></h1>
     <p><?=NAMA?> anak dari Bapak Muhammad Jamil dan Ibu Maemunah. <?=NAMA?> memiliki 6 orang anak, yaitu:</p>
     <ol>
-      <li><a href="#">Bapak H. Mafahir</a></li>
-      <li><a href="#">Ibu Mutmainah</a></li>
-      <li><a href="#">Bapak Muhsinun</a></li>
-      <li><a href="#">Bapak Mungalim</a></li>
-      <li><a href="#">Bapak Mughofir</a></li>
-      <li><a href="#">Ibu Nurhayati</a></li>
+      <li>Bapak H. Mafahir</li>
+      <li>Ibu Mutmainah</li>
+      <li>Bapak Muhsinun</li>
+      <li>Bapak Mungalim</li>
+      <li>Bapak Mughofir</li>
+      <li>Ibu Nurhayati</li>
     </ol>
   </section>
   <section>

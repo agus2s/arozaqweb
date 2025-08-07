@@ -1,5 +1,5 @@
 <?php 
-const NAMA = "Bapak Marsudi";
+const NAMA = "Bapak Syawal";
 include 'header.php'; 
 ?>
 <main>
@@ -7,12 +7,9 @@ include 'header.php';
 		<h2><?= NAMA ?></h2>
 		<p><?= NAMA ?> anak dari Ibu Sa'diyah. <?= NAMA ?> memiliki 6 orang anak, yaitu:</p>
 		<ol>
-			<li>Nurul Hikmah</li>
-			<li>Miftahudin</li>
-			<li>Mamad</li>
-			<li>Ulum Maesaroh</li>
-			<li>Yusuf</li>
-			<li>Yunus</li>
+			<li>Khoerul Fuadi</li>
+			<li>Eer Khoerunnisa</li>
+			<li>Yudi</li>
 		</ol>
 	</section>
 	  <section>

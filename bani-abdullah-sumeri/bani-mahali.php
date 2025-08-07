@@ -8,11 +8,11 @@ include 'header.php';
 		<h2><?=NAMA?></h2>
 		<p><?=NAMA?> anak dari Ibu Satibah dan Bapak Ahmad Abdullah Sumeri. <?=NAMA?> memiliki 5 orang anak:</p>
 		<ol>
-			<li><a href="#">Bapak/Ibu Mur</a></li>
-			<li><a href="#">Bapak Muis</a></li>
-			<li><a href="#">Bapak Alam</a></li>
-			<li><a href="#">Bapak Hamid</a></li>
-			<li><a href="#">Bapak/Ibu Nur</a></li>
+			<li>Bapak/Ibu Mur</li>
+			<li>Bapak Muis</li>
+			<li>Bapak Alam</li>
+			<li>Bapak Hamid</li>
+			<li>Bapak/Ibu Nur</li>
 		</ol>
 	</section>
 	<section>
