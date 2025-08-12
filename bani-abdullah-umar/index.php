@@ -20,25 +20,25 @@ include 'header.php';
 	<section>
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
-		flowchart LR;
-		A[Mbah Abdurrozaq] --> B[Ibu Mariyah];
-		B --> 1[Ibu Aisyah]; 
-		B --> 2[Bapak Imron]; 
-		B --> 3[Bapak Bahrudin]; 
-		B --> 4[Ibu Hamidah]; 
-		B --> 5[Ibu Romlah]; 
-		B --> 6[Ibu Jaenah]; 
-		B --> 7[Bapak Hamdani]; 
+		flowchart LR
+		A[Mbah Abdurrozaq] --> B[Ibu Mariyah]
+		B --> 1[Ibu Aisyah]
+		B --> 2[Bapak Imron]
+		B --> 3[Bapak Bahrudin]
+		B --> 4[Ibu Hamidah]
+		B --> 5[Ibu Romlah]
+		B --> 6[Ibu Jaenah]
+		B --> 7[Bapak Hamdani]
 		B --> 8[Bapak Hayan]
 
-		click A "../index.php";
-		click 1 "bani-sabilan.php";
-		click 2 "bani-imron.php";
-		click 3 "bani-bahrudin.php";
-		click 4 "bani-abu-nangim.php";
-		click 5 "bani-romlah.php";
-		click 6 "bani-jaenah.php";
-		click 7 "bani-hamdani.php";
+		click A "../index.php"
+		click 1 "bani-sabilan.php" "Bani Sabilan"
+		click 2 "bani-imron.php"
+		click 3 "bani-bahrudin.php"
+		click 4 "bani-abu-nangim.php" "Bani Abu Nangim"
+		click 5 "bani-romlah.php"
+		click 6 "bani-jaenah.php"
+		click 7 "bani-hamdani.php"
 		click 8 "bani-hayan.php"
 		</div>
 	</section>

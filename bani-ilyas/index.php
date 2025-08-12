@@ -24,10 +24,9 @@ include 'header.php';
         <div class="mermaid" id="silsilah">
             flowchart TD;
             A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
-            B["Bapak Hasan Ilyas"] --> |beristri|C["Ibu Rochyati"];
-            C --> D["Ibu Umi Latifah"];
-            C --> E["Ibu Hindun Asfiyah"];
-            C --> F["Ibu Malehatun"];
+            B --> D["Ibu Umi Latifah"];
+            B --> E["Ibu Hindun Asfiyah"];
+            B --> F["Ibu Malehatun"];
             click A "../index.php";
             click D "bani-agus.php";
             click E "bani-nurman.php";

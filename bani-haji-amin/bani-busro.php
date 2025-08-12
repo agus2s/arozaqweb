@@ -1,27 +1,25 @@
 <?php 
-const NAMA = 'Bapak Muhammad';
+const NAMA = 'Bapak Busro';
 include 'header.php'; 
 ?>
 <main>
     <section>
         <h1><?=NAMA?></h1>
-        <p><?=NAMA?> adalah anak Bapak Haji Amin. <?=NAMA?> memiliki 5 orang anak, yaitu:</p>
+        <p><?=NAMA?> adalah anak Bapak Haji Amin. <?=NAMA?> memiliki 2 orang anak, yaitu:</p>
         <ol>
-            <li><a href="bani-busro.php">Bapak Busro</a></li>
-            <li>Bapak Amirudin</li>
-			<li>Ibu Musriyati</li>
-			<li>Bapak Muhtarom</li>
-			<li>Bapak Tamrin</li>
+            <li>Zulfah</li>
+            <li>Arjun</li>
         </ol>
     </section>
     <section>
         <h3>Silsilah Keluarga <?= NAMA ?></h3>
         <div class="mermaid" id="silsilah">flowchart TD
             A[Mbah Abdurrozaq] --> B[Bapak H. Amin]
-            B --> C[Bapak Muhammad]
+            B --> C[Bapak Muhammad] --> D[<?= NAMA ?>]
 
             click A "../index.php"
             click B "index.php"
+			click C "bani-muhammad.php"
         </div>
     </section>
 </main>

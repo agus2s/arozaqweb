@@ -27,7 +27,7 @@
             A --> C[Ibu Mariyah]
             A --> D[Ibu Sujiah/Marjiah]
             A --> E[Bapak Jamil]
-            A --> F[Bapak Ilyas]
+            A --> F[Bapak H. Ilyas]
             A --> G[Ibu Satibah]
             click B "bani-haji-amin"
             click C "bani-abdullah-umar" "Bani Abdullah Umar"
