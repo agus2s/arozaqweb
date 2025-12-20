@@ -14,7 +14,7 @@ include 'header.php';
 		<h3>Silsilah Keluarga <?= NAMA ?></h3>
 		<div class="mermaid" id="silsilah">
 		  graph TD
-		  A[Mbah Abdurrozaq] --> B[Ibu Sujiah/Marjiah] --> C[Bapak Abdul Qohar]
+		  A[Mbah Abdurrozaq] --> B[Ibu Sujiah/Marjiah] --> C[Bapak KH. Abdul Qohar]
 		  C --> D[<?= NAMA ?>]
 		  click A "../index.php"
 		  click B "index.php" "Bani Sarbini"
