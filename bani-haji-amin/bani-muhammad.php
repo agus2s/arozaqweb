@@ -8,10 +8,10 @@ include 'header.php';
         <p><?=NAMA?> adalah anak Bapak Haji Amin. <?=NAMA?> memiliki 5 orang anak, yaitu:</p>
         <ol>
             <li><a href="bani-busro.php">Bapak Busro</a></li>
-            <li>Bapak Amirudin</li>
+            <li><a href="bani-amirudin.php">Bapak Amirudin</a></li>
 			<li>Ibu Musriyati</li>
-			<li>Bapak Muhtarom</li>
-			<li>Bapak Tamrin</li>
+			<li><a href="bani-muhtarom.php">Bapak Muhtarom</a></li>
+			<li><a href="bani-tamrin.php">Bapak Tamrin</a></li>
         </ol>
     </section>
     <section>

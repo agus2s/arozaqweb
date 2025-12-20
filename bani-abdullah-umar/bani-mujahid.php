@@ -8,12 +8,12 @@ include 'header.php';
     <h2><?=NAMA?></h2>
     <p><?=NAMA?> anak dari Ibu Hamidah. <?=NAMA?> memiliki 8 orang anak, yaitu:</p>
     <ol>
-      <li>Ibu Laelatul Ngidyah</li>
-      <li>Bapak Fauzan</li>
-      <li>Bapak Mustofa</li>
-      <li>Ibu Ghoniyah</li>            
-      <li>Bapak Murtadho</li>
-      <li>Ibu Murtofingah</li>
+      <li><a href="bani-laelatul.php">Ibu Laelatul Ngidyah</a></li>
+      <li><a href="bani-fauzan.php">Bapak Fauzan</a></li>
+      <li><a href="bani-mustofa.php">Bapak Mustofa</a></li>
+      <li><a href="bani-ghoniah.php">Ibu Ghoniah</a></li>
+      <li><a href="bani-murtadlo.php">Bapak Murtadho</a></li>
+      <li><a href="bani-murtofingah.php">Ibu Murtofingah</a></li>
       <li>Bapak Muntaha</li>
       <li>Bapak Iskandar</li>
     </ol>
