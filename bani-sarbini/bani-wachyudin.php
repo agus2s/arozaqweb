@@ -1,5 +1,5 @@
 <?php 
-const NAMA = 'Ibu Dingayatul Khoeriyah';
+const NAMA = 'Ibu Dingayatul Khaeriyah';
 include 'header.php'; 
 ?>
 <main>
@@ -7,9 +7,9 @@ include 'header.php';
 		<h2><?=NAMA?> bersuami Bapak H. Wachyudin</h2>
 		<p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> bersuami Bapak H. Wachyudin. <?=NAMA?> memiliki 3 anak, yatu:</p>
 		<ol>
-			<li>Bapak Faishal</li>
-			<li>Fahri</li>
-			<li>Fawaid</li>
+			<li>Bapak Muhammad Faishal Danial</li>
+			<li>Fakhri Ahmad</li>
+			<li>Ahmad Fawaid Al Mubdiu</li>
 		</ol>
 	</section>
 	<section>

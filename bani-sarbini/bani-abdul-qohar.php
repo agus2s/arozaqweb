@@ -1,11 +1,11 @@
 <?php 
-const NAMA = 'Bapak Abdul Qohar';
+const NAMA = 'Bapak KH. Abdul Qohar';
 include 'header.php'; 
 ?>
 <main>
 	<section>
-		<h2><?=NAMA?> beristri Ibu Marchamah</h2>
-		<p><?=NAMA?> anak dari Ibu Sujiah/Ibu Marjiah dan Bapak Sarbini. <?=NAMA?> beristri Ibu Marchamah. <?=NAMA?> memiliki 5 anak:</p>
+		<h2><?=NAMA?> beristri Ibu Ny. Hj. Marchamah</h2>
+		<p><?=NAMA?> anak dari Ibu Sujiah/Ibu Marjiah dan Bapak Sarbini. <?=NAMA?> beristri Ibu Ny. Hj. Marchamah. <?=NAMA?> memiliki 5 anak:</p>
 		<ol>
 			<li><a href="bani-wachyudin.php">Ibu Dingayatul Khoeriyah bersuami Bapak Wachyudin</a></li>
 			<li><a href="bani-mustakim.php">Ibu Natijatul Muna bersuami Bapak H. Mustakim</a></li>

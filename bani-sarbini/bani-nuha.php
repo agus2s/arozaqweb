@@ -8,10 +8,10 @@ include 'header.php';
 		<h2><?=NAMA?> beristri Ibu Iin Kurniasih</h2>
 		<p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> beristri Ibu Iin Kurniasih. <?=NAMA?> memiliki 4 orang anak, yaitu:</p>
 		<ol>
-			<li>Ahsan</li>
-			<li>Aqil</li>
-			<li>Aqila</li>
-			<li>Amrina</li>
+			<li>Ahmad Ahsanu Nadiyyan Liulinnuha</li>
+			<li>Aqiil Ulil Abshar</li>
+			<li>Amalia Aqila Qonita</li>
+			<li>Amrina Rosada Al Atsira</li>
 		</ol>
 	</section>
 	<section>

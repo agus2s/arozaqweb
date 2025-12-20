@@ -7,10 +7,10 @@ include 'header.php';
 		<h2><?=NAMA?> beristri Ibu Hj. Munjayanah</h2>
 		<p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> beristri Ibu Hj. Munjayanah. <?=NAMA?> memiliki 4 orang anak, yaitu:</p>
 		<ol>
-			<li>Husna</li>
-			<li>Naila</li>
-			<li>Idris</li>
-			<li>Najihah</li>
+			<li>Minatul Husna</li>
+			<li>Nailal Mumtazah</li>
+			<li>Muhammad Idris Mun'im</li>
+			<li>Najihah Alawiyah</li>
 		</ol>
 	</section>
 	<section>

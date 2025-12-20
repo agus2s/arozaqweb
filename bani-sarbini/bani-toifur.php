@@ -7,9 +7,9 @@ include 'header.php';
 		<h2><?=NAMA?> bersuami Bapak Thoifur</h2>
 		<p><?=NAMA?> anak dari Bapak Abdul Qohar dan Ibu Marchamah. <?=NAMA?> bersuami Bapak Thoifur. <?=NAMA?> memiliki 3 orang anak, yaitu:</p>
 		<ol>
-			<li>Nabih</li>
-			<li>Nabhan</li>
-			<li>Aniq</li>
+			<li>Nabieh Shulhan Ahmad</li>
+			<li>Ahmad Nabhan Syukri</li>
+			<li>Anieq 'Ilman Shidqi Ramadhan</li>
 		</ol>
 	</section>
 	<section>
