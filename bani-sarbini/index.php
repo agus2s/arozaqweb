@@ -12,7 +12,7 @@
 			<li><a href="bani-afinah.php">Ibu 'Afinah</a></li>
 			<li><a href="bani-ahmad-sumedi.php">Bapak Ahmad Sumedi</a></li>
 			<li><a href="#">Ibu Alfiyah</a></li>
-			<li><a href="bani-abdul-qohar.php">Bapak Abdul Qohar beristri Ibu Machamah</a></li>
+			<li><a href="bani-abdul-qohar.php">Bapak KH. Abdul Qohar beristri Ibu Ny. Machamah</a></li>
 			<li><a href="#">Ibu Mukronah</a></li>
 		</ol>
 		<h3>Kenangan Abadi</h3>
@@ -33,7 +33,7 @@
 		B --> 3["Ibu \'Afinah"];
 		B --> 4["Bapak Ahmad Sumedi"];
 		B --> 5["Ibu Alfiyah"];
-		B --> 6["Bapak Abdul Qohar"];
+		B --> 6["Bapak KH. Abdul Qohar"];
 		B --> 7["Ibu Mukronah"];
     click A "../index.php";
 		click 1 "bani-dul-ghoni.php";
